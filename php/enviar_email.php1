@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Sending email using PHP</title>
+</head>
+<body>
+<?php
+
+$to      = 'karolfurletti@gmail.com';
+$subject = 'Cotacao de Produtos';
+$email = 'Solicito a cotacao dos seguintes itens: 10 vergalhao 3/8, 100 estribo 7x27';
+
+
+$headers   = array();
+$headers[] = "MIME-Version: 1.0";
+$headers[] = "Content-type: text/plain; charset=iso-8859-1";
+$headers[] = "From: Pedido de vendas online <ti@fergel.com.br>";
+$headers[] = "Bcc: Setor Vendas <ti@fergel.com.br>";
+$headers[] = "Reply-To: Recipient Name <ti@fergel.com.br>";
+$headers[] = "Subject: {$subject}";
+$headers[] = "X-Mailer: PHP/".phpversion();
+
+
+$retval = mail($to, $subject, $email, implode("\r\n", $headers));
+
+
+   if( $retval == true )  
+   {
+      echo "Mensagem enviada com sucesso...";
+   }
+   else
+   {
+      echo "Message could not be sent...";
+   }
+
+
+?>
+</body>
+</html>

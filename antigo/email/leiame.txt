@@ -1,0 +1,32 @@
+$msg is an array, and you can add as many variables as you like.
+
+For example you can add
+$msg = array($name, $email, $hobbies, $color, $blah)
+	$name = 'name';
+	$email = 'email';
+	$message = 'message';
+	$hobbies = 'hobbies';
+	$color = 'color';
+	$blah = 'blah';
+	
+make sure you define each variable you add to the name you want to name the
+specific form field in your form. 
+
+The name to the right is the name you name your form field.
+For example
+<input type="text" name="hobbies">
+
+You can add whatever you want to $mailheaders. 
+I have it so that it will send the persons IP address. 
+But you can get rid of that and put whatever you want. The "\n"
+equals a break.
+
+Now we mail everything off.
+
+mail($name, $email, join("\n", $msg), $mailheaders);
+
+Make sure you put join("\n", $msg)
+What that does is joins all the variables in the array together to make it a string.
+
+Im a newbie to php. This should work. It did for me. Anyhow, enjoy 
+and do whatever the heck you want with it. 
