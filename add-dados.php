@@ -5,7 +5,7 @@
 <!--[if IE 9]><html class="ie ie9 lte9" lang="en-US"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--><html class="noIE" lang="en-US"><!--<![endif]-->
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1 /">
         <title>FERGEL :: ADICIONAR OBRAS</title>
         <meta name="description" content=""/>
         <meta name="keywords" content=""/>
@@ -74,13 +74,13 @@
 
                                         <div id="sub-cart" class="sub-header">
                                             <div class="cart-header">
-                                                <span style="color:#000;">Você não tem itens no seu orçamento.</span>
-                                                <small><a href="orcamento.html">• ver tudo •</a></small>
+                                                <span style="color:#000;">VocÃª nÃ£o tem itens no seu orÃ§amento.</span>
+                                                <small><a href="orcamento.html">â€¢ ver tudo â€¢</a></small>
                                             </div>
                                             <ul class="cart-items product-medialist unstyled clearfix"></ul>
                                             <div class="cart-footer">
                                                 <div class="text-right">
-                                                    <a href="orcamento.html" class="btn btn-default btn-round view-cart">ver orçamento</a>
+                                                    <a href="orcamento.html" class="btn btn-default btn-round view-cart">ver orÃ§amento</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -133,68 +133,7 @@
                                 </a>
                             </div>
                             <!-- // SITE LOGO -->
-                            <!-- SITE NAVIGATION MENU -->
-					<nav id="site-menu" role="navigation">
-						<ul class="main-menu hidden-sm hidden-xs">
-                        
-							<li>
-								<a href="index.html">Home</a>
-							</li>
-                            
-							<li>
-								<a href="fergel.html">fergel</a>
-                                			<ul class="dropdown">
-												<li><a href="fergel-missao.html">Missão • Visão</a></li>
-												<li><a href="fergel-certificacoes.html">Certificações</a></li>
-												<li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>
-											</ul>
-							</li>
-                            
-							<li><a href="produtos-categorias.html">produtos</a></li>
-                            
-                            
-							<li>
-								<a href="#">engenharia</a>
-                                			<ul class="dropdown">
-												<li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>
-												<li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>
-												<li><a href="engenharia-estruturas.html">Estruturas de Construção</a></li>
-												<li><a href="engenharia-coberturas.html">Coberturas</a></li>
-												<li><a href="engenharia-executadas.html">Obras Executadas</a></li>
-                                            	<li><a href="engenharia-maoobra.html">Mão-de-obra</a></li>
-											</ul>
-							</li>
-                            
-							<li>
-								<a href="contatos.html">Contatos</a>
-							</li>
-                            
-						</ul>
-						
-						<!-- MOBILE MENU -->
-						<div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">
-							<button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>
-							<ul class="dl-menu">
-								<li class="active">
-								<a href="index.html">home</a>
-							</li>
-							<li>
-								<a href="fergel.html">fergel</a>
-							</li>
-							<li>
-								<a href="produtos-categorias.html">produtos</a></li>
-							<li>
-								<a href="engenharia-sistemas.html">engenharia</a>
-							</li>
-							<li>
-								<a href="contatos.html">Contatos</a>
-							</li>
-							</ul>
-						</div>
-						<!-- // MOBILE MENU -->
-
-					</nav>
-					<!-- // SITE NAVIGATION MENU -->
+                            <!-- SITE NAVIGATION MENU -->                            <nav id="site-menu" role="navigation">                            	<ul class="main-menu hidden-sm hidden-xs">                                                            		<li class="active">                            			<a href="index.html">Home</a>                            		</li>                                                                		<li>                            			<a href="fergel.html">fergel â€¢</a>                                        			<ul class="dropdown">                            							<li><a href="fergel-missao.html">MissÃ£o â€¢ VisÃ£o</a></li>                            							<li><a href="fergel-certificacoes.html">CertificaÃ§Ãµes</a></li>                            							<li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>                            						</ul>                            		</li>                                                                		<li><a href="produtos-categorias.html">produtos</a></li>                                                                                                    		<li>                            			<a href="#">engenharia â€¢</a>                                        			<ul class="dropdown">                            							<li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>                            							<li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>                            							<li><a href="engenharia-estruturas.html">Estruturas de ConstruÃ§Ã£o</a></li>                            							<li><a href="engenharia-coberturas.html">Coberturas</a></li>                            							<li><a href="engenharia-executadas.html">Obras Executadas</a></li>                                                    	<li><a href="engenharia-maoobra.html">MÃ£o-de-obra</a></li>                            						</ul>                            		</li>                                                                		<li>                            			<a href="contatos.php">Contatos â€¢</a>                                        			<ul class="dropdown">                            							<li><a href="trabalhe-conosco.php">Trabalhe conosco</a></li>                            						</ul>                            		</li>                                                                	                            	</ul>                            	                            	<!-- MOBILE MENU -->                            	<div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">                            		<button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>                            		<ul class="dl-menu">                            			<li class="active">                            			<a href="index.html">home</a>                            		</li>                            		<li>                            			<a href="fergel.html">fergel</a>                            		</li>                            		<li>                            			<a href="produtos-categorias.html">produtos</a></li>                            		<li>                            			<a href="engenharia-sistemas.html">engenharia</a>                            		</li>                            		<li>                            			<a href="contatos.php">Contatos</a>                            		</li>                            		</ul>                            	</div>                            	<!-- // MOBILE MENU -->                            	                            </nav>                            <!-- // SITE NAVIGATION MENU -->
                         </div>
                     </div>
                 </div>
@@ -242,7 +181,7 @@
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
                                             <a data-toggle="collapse" data-parent="#checkout-collapse" href="#checkout-collapse1">
-                                                INFORMA&Ccedil;&Otilde;ES SOBRE A OBRA
+                                                <strong style="color: #BE1E2D;">1Âº PASSO: </strong>INFORMAÃ‡Ã•ES SOBRE A OBRA
                                             </a>
                                         </h4>
                                     </div>
@@ -261,7 +200,7 @@
                                                                         $executa_sql_seleciona = mysql_query($sql_seleciona_clientes)or die(mysql_error());
                                                                         ?>
                                                                         <select required="required" name="cliente" class="form-control" id="inputState">
-                                                                            <option value="">• SELECIONE O CLIENTE • </option>
+                                                                            <option value="">â€¢ SELECIONE O CLIENTE â€¢ </option>
                                                                             <?php while ($linha_clientes_add = mysql_fetch_array($executa_sql_seleciona)) {
                                                                                 ?>
                                                                                 <option value="<?php echo $linha_clientes_add['id_clientes']; ?>"><?php echo $linha_clientes_add['razao_social']; ?></option>
@@ -271,19 +210,19 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="space20 clearfix"></div>
-                                                                <p style="font-weight:600;">Situa&ccedil;&atilde;o da obra</p>
+                                                                <p style="font-weight:600;">SituaÃ§Ã£o da obra</p>
                                                                 <div class="form-account">
                                                                     <div class="radio">
                                                                         <input name="situacao" value="1" type="radio" name="customer" id="radio-register" class="prettyCheckable" checked="checked" data-label="em andamento"/>
                                                                     </div>
                                                                     <div class="radio">
-                                                                        <input name="situacao" value="2" type="radio" name="customer" id="radio-guest" class="prettyCheckable" data-label="Concluída" />
+                                                                        <input name="situacao" value="2" type="radio" name="customer" id="radio-guest" class="prettyCheckable" data-label="ConcluÃ­da" />
                                                                     </div>
                                                                 </div>
                                                                 <div class="space20 clearfix"></div>
                                                                 <div class="form-group stylish-input">
-                                                                    <label for="inputEmail" class="col-xs-12 col-sm-3 control-label">endereço</label>
-                                                                    <div class="col-lg-7">
+                                                                    <label for="inputEmail" class="col-xs-12 col-sm-3 control-label">endereÃ§o</label>
+                                                                    <div class="col-lg-9">
                                                                         <input name="endereco" type="text" class="form-control" id="inputEmail">
                                                                     </div>
                                                                 </div>
@@ -338,7 +277,7 @@
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
                                             <a data-toggle="collapse" data-parent="#checkout-collapse" href="#checkout-collapse2">
-                                                avisos e observa&ccedil;&otilde;es
+                                                <strong style="color: #BE1E2D;">2Âº PASSO: </strong>avisos e observa&ccedil;&otilde;es
                                             </a>
                                         </h4>
                                     </div>
@@ -347,13 +286,13 @@
                                             <!--                                            <form class="form-horizontal" role="form">-->
                                             <div class="row">
                                                 <div class="col-xs-11 col-sm-11 col-md-5" style="margin-left:30px;">
-                                                    <div class="form-group stylish-input">
-                                                        <label for="contactMSG" >AVISOS!</label>
+                                                    <div class="form-group">
+                                                        <label for="contactMSG stylish-input" >AVISOS!</label>
                                                         <textarea name="avisos" id="contactMSG" class="form-control" name="message" style="height: 178px;"></textarea>
                                                     </div>
                                                 </div>
                                                 <div class="col-xs-11 col-sm-11 col-md-6" style="margin-left:10px;">
-                                                    <div class="form-group stylish-input">
+                                                    <div class="form-group  stylish-input">
                                                         <label for="contactMSG" >observa&ccedil;&otilde;es</label>
                                                         <textarea name="observacoes" id="contactMSG" class="form-control" name="message" style="height: 178px;"></textarea>
                                                     </div>
@@ -370,7 +309,7 @@
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
                                             <a data-toggle="collapse" data-parent="#checkout-collapse" href="#checkout-collapse3">
-                                                GALERIA DE FOTOS
+                                                <strong style="color: #BE1E2D;">3Âº PASSO: </strong>GALERIA DE FOTOS
                                             </a>
                                         </h4>
                                     </div>
@@ -446,7 +385,7 @@
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
                                             <a data-toggle="collapse" data-parent="#checkout-collapse" href="#checkout-collapse4">
-                                                ARQUIVOS PARA DOWNLOAD
+                                                <strong style="color: #BE1E2D;">4Âº PASSO: </strong>ARQUIVOS PARA DOWNLOAD
                                             </a>
                                         </h4>
                                     </div>
@@ -461,7 +400,7 @@
                                                     <div class="form-group stylish-input">
                                                         <label for="contactMSG"><b>Arquivo</b></label>
                                                         <input name="arquivo" type="file" class="default" />
-                                                        <label for="inputEmail" class="col-xs-12 col-sm-3 control-label">TÍTULO e FORMATO</label>
+                                                        <label for="inputEmail" class="col-xs-12 col-sm-3 control-label">TÃTULO e FORMATO</label>
                                                         <div class="col-lg-7">
                                                             <input name="nomearquivo" type="text" class="form-control" id="inputEmail">
                                                         </div>

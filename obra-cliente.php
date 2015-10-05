@@ -255,7 +255,7 @@ include './conections/config.php';
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
                                             <a data-toggle="collapse" data-parent="#checkout-collapse" href="#checkout-collapse1">
-                                                INFORMA&Ccedil;&Otilde;ES SOBRE A OBRA DE: <h4 style="color:#C00; font-family: Raleway;"> <?php echo $linha_co['razao_social']; ?></h4>
+                                                INFORMAÇÕES SOBRE A OBRA DE: <h4 style="color:#C00; font-family: Raleway;"> <?php echo $linha_co['razao_social']; ?></h4>
                                             </a>
                                         </h4>
                                     </div>

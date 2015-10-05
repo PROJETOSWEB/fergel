@@ -74,13 +74,13 @@
 
                                         <div id="sub-cart" class="sub-header">
                                             <div class="cart-header">
-                                                <span style="color:#000;">Voc� n�o tem itens no seu or�amento.</span>
-                                                <small><a href="orcamento.html">� ver tudo �</a></small>
+                                                <span style="color:#000;">Vocï¿½ nï¿½o tem itens no seu orï¿½amento.</span>
+                                                <small><a href="orcamento.html">ï¿½ ver tudo ï¿½</a></small>
                                             </div>
                                             <ul class="cart-items product-medialist unstyled clearfix"></ul>
                                             <div class="cart-footer">
                                                 <div class="text-right">
-                                                    <a href="orcamento.html" class="btn btn-default btn-round view-cart">ver or�amento</a>
+                                                    <a href="orcamento.html" class="btn btn-default btn-round view-cart">ver orï¿½amento</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -134,67 +134,71 @@
                             </div>
                             <!-- // SITE LOGO -->
                             <!-- SITE NAVIGATION MENU -->
-					<nav id="site-menu" role="navigation">
-						<ul class="main-menu hidden-sm hidden-xs">
-                        
-							<li>
-								<a href="index.html">Home</a>
-							</li>
-                            
-							<li>
-								<a href="fergel.html">fergel</a>
-                                			<ul class="dropdown">
-												<li><a href="fergel-missao.html">Miss�o � Vis�o</a></li>
-												<li><a href="fergel-certificacoes.html">Certifica��es</a></li>
-												<li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>
-											</ul>
-							</li>
-                            
-							<li><a href="produtos-categorias.html">produtos</a></li>
-                            
-                            
-							<li>
-								<a href="#">engenharia</a>
-                                			<ul class="dropdown">
-												<li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>
-												<li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>
-												<li><a href="engenharia-estruturas.html">Estruturas de Constru��o</a></li>
-												<li><a href="engenharia-coberturas.html">Coberturas</a></li>
-												<li><a href="engenharia-executadas.html">Obras Executadas</a></li>
-                                            	<li><a href="engenharia-maoobra.html">M�o-de-obra</a></li>
-											</ul>
-							</li>
-                            
-							<li>
-								<a href="contatos.html">Contatos</a>
-							</li>
-                            
-						</ul>
-						
-						<!-- MOBILE MENU -->
-						<div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">
-							<button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>
-							<ul class="dl-menu">
-								<li class="active">
-								<a href="index.html">home</a>
-							</li>
-							<li>
-								<a href="fergel.html">fergel</a>
-							</li>
-							<li>
-								<a href="produtos-categorias.html">produtos</a></li>
-							<li>
-								<a href="engenharia-sistemas.html">engenharia</a>
-							</li>
-							<li>
-								<a href="contatos.html">Contatos</a>
-							</li>
-							</ul>
-						</div>
-						<!-- // MOBILE MENU -->
-
-					</nav>
-					<!-- // SITE NAVIGATION MENU -->
+                            <nav id="site-menu" role="navigation">
+                            	<ul class="main-menu hidden-sm hidden-xs">
+                                
+                            		<li class="active">
+                            			<a href="index.html">Home</a>
+                            		</li>
+                                    
+                            		<li>
+                            			<a href="fergel.html">fergel •</a>
+                                        			<ul class="dropdown">
+                            							<li><a href="fergel-missao.html">Missão • Visão</a></li>
+                            							<li><a href="fergel-certificacoes.html">Certificações</a></li>
+                            							<li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>
+                            						</ul>
+                            		</li>
+                                    
+                            		<li><a href="produtos-categorias.html">produtos</a></li>
+                                    
+                                    
+                            		<li>
+                            			<a href="#">engenharia •</a>
+                                        			<ul class="dropdown">
+                            							<li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>
+                            							<li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>
+                            							<li><a href="engenharia-estruturas.html">Estruturas de Construção</a></li>
+                            							<li><a href="engenharia-coberturas.html">Coberturas</a></li>
+                            							<li><a href="engenharia-executadas.html">Obras Executadas</a></li>
+                                                    	<li><a href="engenharia-maoobra.html">Mão-de-obra</a></li>
+                            						</ul>
+                            		</li>
+                                    
+                            		<li>
+                            			<a href="contatos.php">Contatos •</a>
+                                        			<ul class="dropdown">
+                            							<li><a href="trabalhe-conosco.php">Trabalhe conosco</a></li>
+                            						</ul>
+                            		</li>
+                                    
+                            	
+                            	</ul>
+                            	
+                            	<!-- MOBILE MENU -->
+                            	<div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">
+                            		<button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>
+                            		<ul class="dl-menu">
+                            			<li class="active">
+                            			<a href="index.html">home</a>
+                            		</li>
+                            		<li>
+                            			<a href="fergel.html">fergel</a>
+                            		</li>
+                            		<li>
+                            			<a href="produtos-categorias.html">produtos</a></li>
+                            		<li>
+                            			<a href="engenharia-sistemas.html">engenharia</a>
+                            		</li>
+                            		<li>
+                            			<a href="contatos.php">Contatos</a>
+                            		</li>
+                            		</ul>
+                            	</div>
+                            	<!-- // MOBILE MENU -->
+                            	
+                            </nav>
+                            <!-- // SITE NAVIGATION MENU -->
                         </div>
                     </div>
                 </div>
@@ -238,10 +242,10 @@
                         <section class="col-xs-12 col-sm-8 col-md-9">
                             <div class="panel-group checkout" id="checkout-collapse">
                                 <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
+                                    <div class="panel-heading" style="height: 35px;">
+                                        <h4 class="panel-title" style="float: left;">
                                             lista de clientes - quantidade de obras
-                                        </h4>
+                                        </h4>                                                                                <h4 class="panel-title" style="float: right;"> quant. obras</h4>
                                     </div>
 
                                     <div id="checkout-collapse6" class="panel-collapse">
@@ -265,37 +269,36 @@
                                                          
                                                         ?>                
                                                         <tr class="tabela">
-                                                            <td style="width: 540px;"><a href="lista-obras-cliente.php?id=<?php echo $linha_clientes['id_clientes']; ?>"><?php echo $linha_clientes['razao_social']; ?></a></td>
-                                                            <td style="width: 140px; font-weight:600;"><a href="lista-obras-cliente.php?id=<?php echo $linha_clientes['id_clientes']; ?>"><?php echo $linha_obr['qtdo'];?></a></td>
-                                                            <td><a href="lista-clientes-update.php?id=<?php echo $linha_clientes['id_clientes']; ?>"><img width="20" height="20" src="img/ico-editar.png" title="Alterar"></a></td>
-                                                            <td><a href="php/excluir_cliente.php?id=<?php echo $linha_clientes['id_clientes']; ?>"><img width="20" height="20" src="img/ico-delete.png" title="Excluir"></a></td>
+                                                            <td style="width: 540px;"><a href="lista-obras-cliente.php?id=<?php echo $linha_clientes['id_clientes']; ?>"><?php echo $linha_clientes['razao_social']; ?></a></td>                                                            <td><a href="lista-clientes-update.php?id=<?php echo $linha_clientes['id_clientes']; ?>"><img width="20" height="20" src="img/ico-editar.png" title="Alterar"></a></td>                                                            <td><a href="php/excluir_cliente.php?id=<?php echo $linha_clientes['id_clientes']; ?>"><img width="20" height="20" src="img/ico-delete.png" title="Excluir"></a></td>
+                                                            <td style="width: 80px; font-weight:600; font-size: 20px;"><a href="lista-obras-cliente.php?id=<?php echo $linha_clientes['id_clientes']; ?>"><?php echo $linha_obr['qtdo'];?></a></td>
+                                                            
                                                         </tr>
 
                                                     <?php } ?>
 
 <!--                                                    <tr class="tabela">
-                                                        <td><a href="#">Fergel Ind�stria e Com�rcio de Ferro LTDA</a></td>
+                                                        <td><a href="#">Fergel Indï¿½stria e Comï¿½rcio de Ferro LTDA</a></td>
                                                     </tr>
                                                     <tr class="tabela">
-                                                        <td><a href="#">Fergel Ind�stria e Com�rcio de Ferro LTDA</a></td>
+                                                        <td><a href="#">Fergel Indï¿½stria e Comï¿½rcio de Ferro LTDA</a></td>
                                                     </tr>
                                                     <tr class="tabela">
-                                                        <td><a href="#">Fergel Ind�stria e Com�rcio de Ferro LTDA</a></td>
+                                                        <td><a href="#">Fergel Indï¿½stria e Comï¿½rcio de Ferro LTDA</a></td>
                                                     </tr>
                                                     <tr class="tabela">
-                                                        <td><a href="#">Fergel Ind�stria e Com�rcio de Ferro LTDA</a></td>
+                                                        <td><a href="#">Fergel Indï¿½stria e Comï¿½rcio de Ferro LTDA</a></td>
                                                     </tr>
                                                     <tr class="tabela">
-                                                        <td><a href="#">Fergel Ind�stria e Com�rcio de Ferro LTDA</a></td>
+                                                        <td><a href="#">Fergel Indï¿½stria e Comï¿½rcio de Ferro LTDA</a></td>
                                                     </tr>
                                                     <tr class="tabela">
-                                                        <td><a href="#">Fergel Ind�stria e Com�rcio de Ferro LTDA</a></td>
+                                                        <td><a href="#">Fergel Indï¿½stria e Comï¿½rcio de Ferro LTDA</a></td>
                                                     </tr>
                                                     <tr class="tabela">
-                                                        <td><a href="#">Fergel Ind�stria e Com�rcio de Ferro LTDA</a></td>
+                                                        <td><a href="#">Fergel Indï¿½stria e Comï¿½rcio de Ferro LTDA</a></td>
                                                     </tr>
                                                     <tr class="tabela">
-                                                        <td><a href="#">Fergel Ind�stria e Com�rcio de Ferro LTDA</a></td>
+                                                        <td><a href="#">Fergel Indï¿½stria e Comï¿½rcio de Ferro LTDA</a></td>
                                                     </tr>-->
                                                 </table>
                                             </div>

@@ -77,13 +77,13 @@ include './conections/config.php';
 								
 								<div id="sub-cart" class="sub-header">
 									<div class="cart-header">
-										<span style="color:#000;">Você não tem itens no seu orçamento.</span>
-										<small><a href="orcamento.html">• ver tudo •</a></small>
+										<span style="color:#000;">VocÃª nÃ£o tem itens no seu orÃ§amento.</span>
+										<small><a href="orcamento.html">â€¢ ver tudo â€¢</a></small>
 									</div>
 									<ul class="cart-items product-medialist unstyled clearfix"></ul>
 									<div class="cart-footer">
 										<div class="text-right">
-											<a href="orcamento.html" class="btn btn-default btn-round view-cart">ver orçamento</a>
+											<a href="orcamento.html" class="btn btn-default btn-round view-cart">ver orÃ§amento</a>
 										</div>
 									</div>
 								</div>
@@ -136,68 +136,7 @@ include './conections/config.php';
 						</a>
 					</div>
 					<!-- // SITE LOGO -->
-					<!-- SITE NAVIGATION MENU -->
-					<nav id="site-menu" role="navigation">
-						<ul class="main-menu hidden-sm hidden-xs">
-                        
-							<li>
-								<a href="index.html">Home</a>
-							</li>
-                            
-							<li>
-								<a href="fergel.html">fergel</a>
-                                			<ul class="dropdown">
-												<li><a href="fergel-missao.html">Missão • Visão</a></li>
-												<li><a href="fergel-certificacoes.html">Certificações</a></li>
-												<li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>
-											</ul>
-							</li>
-                            
-							<li><a href="produtos-categorias.html">produtos</a></li>
-                            
-                            
-							<li>
-								<a href="#">engenharia</a>
-                                			<ul class="dropdown">
-												<li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>
-												<li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>
-												<li><a href="engenharia-estruturas.html">Estruturas de Construção</a></li>
-												<li><a href="engenharia-coberturas.html">Coberturas</a></li>
-												<li><a href="engenharia-executadas.html">Obras Executadas</a></li>
-                                            	<li><a href="engenharia-maoobra.html">Mão-de-obra</a></li>
-											</ul>
-							</li>
-                            
-							<li>
-								<a href="contatos.html">Contatos</a>
-							</li>
-                            
-						</ul>
-						
-						<!-- MOBILE MENU -->
-						<div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">
-							<button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>
-							<ul class="dl-menu">
-								<li class="active">
-								<a href="index.html">home</a>
-							</li>
-							<li>
-								<a href="fergel.html">fergel</a>
-							</li>
-							<li>
-								<a href="produtos-categorias.html">produtos</a></li>
-							<li>
-								<a href="engenharia-sistemas.html">engenharia</a>
-							</li>
-							<li>
-								<a href="contatos.html">Contatos</a>
-							</li>
-							</ul>
-						</div>
-						<!-- // MOBILE MENU -->
-
-					</nav>
-					<!-- // SITE NAVIGATION MENU -->
+					<!-- SITE NAVIGATION MENU -->					<nav id="site-menu" role="navigation">						<ul class="main-menu hidden-sm hidden-xs">					    							<li class="active">								<a href="index.html">Home</a>							</li>					        							<li>								<a href="fergel.html">fergel â€¢</a>					            			<ul class="dropdown">												<li><a href="fergel-missao.html">MissÃ£o â€¢ VisÃ£o</a></li>												<li><a href="fergel-certificacoes.html">CertificaÃ§Ãµes</a></li>												<li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>											</ul>							</li>					        							<li><a href="produtos-categorias.html">produtos</a></li>					        					        							<li>								<a href="#">engenharia â€¢</a>					            			<ul class="dropdown">												<li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>												<li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>												<li><a href="engenharia-estruturas.html">Estruturas de ConstruÃ§Ã£o</a></li>												<li><a href="engenharia-coberturas.html">Coberturas</a></li>												<li><a href="engenharia-executadas.html">Obras Executadas</a></li>					                        	<li><a href="engenharia-maoobra.html">MÃ£o-de-obra</a></li>											</ul>							</li>					        							<li>								<a href="contatos.php">Contatos â€¢</a>					            			<ul class="dropdown">												<li><a href="trabalhe-conosco.php">Trabalhe conosco</a></li>											</ul>							</li>					        												</ul>												<!-- MOBILE MENU -->						<div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">							<button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>							<ul class="dl-menu">								<li class="active">								<a href="index.html">home</a>							</li>							<li>								<a href="fergel.html">fergel</a>							</li>							<li>								<a href="produtos-categorias.html">produtos</a></li>							<li>								<a href="engenharia-sistemas.html">engenharia</a>							</li>							<li>								<a href="contatos.php">Contatos</a>							</li>							</ul>						</div>						<!-- // MOBILE MENU -->											</nav>					<!-- // SITE NAVIGATION MENU -->
 				</div>
 			</div>
 		</div>
@@ -264,7 +203,7 @@ include './conections/config.php';
                                                         ?>
 
                                                         <tr class="tabela">
-                                                            <td><a href="cliente-obra-cliente.php?cliente=<?php echo $cliente; ?>&id=<?php echo $row['id_obra']; ?>">Obra <?php echo $row['id_obra']; ?> • <?php echo $row['obra']; ?></a></td>
+                                                            <td><a href="cliente-obra-cliente.php?cliente=<?php echo $cliente; ?>&id=<?php echo $row['id_obra']; ?>"> <?php echo $row['id_obra']; ?> â€¢ <?php echo $row['obra']; ?></a></td>
                                                            
                                                  
                                                         </tr>

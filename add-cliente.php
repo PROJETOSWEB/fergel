@@ -98,7 +98,7 @@
 								<div id="sub-cart" class="sub-header">
 									<div class="cart-header">
 										<span style="color:#000;">Voc&ecirc; n&atilde;o tem itens no seu or&ccedil;amento.</span>
-										<small><a href="orcamento.html">ï ver tudo ï</a></small>
+										<small><a href="orcamento.html">‚Ä¢ ver tudo ‚Ä¢</a></small>
 									</div>
 									<ul class="cart-items product-medialist unstyled clearfix"></ul>
 									<div class="cart-footer">
@@ -159,39 +159,43 @@
 					<!-- SITE NAVIGATION MENU -->
 					<nav id="site-menu" role="navigation">
 						<ul class="main-menu hidden-sm hidden-xs">
-                        
-							<li>
+					    
+							<li class="active">
 								<a href="index.html">Home</a>
 							</li>
-                            
+					        
 							<li>
-								<a href="fergel.html">fergel</a>
-                                			<ul class="dropdown">
-												<li><a href="fergel-missao.html">Miss„o ï Vis„o</a></li>
-												<li><a href="fergel-certificacoes.html">CertificaÁıes</a></li>
+								<a href="fergel.html">fergel ‚Ä¢</a>
+					            			<ul class="dropdown">
+												<li><a href="fergel-missao.html">Miss√£o ‚Ä¢ Vis√£o</a></li>
+												<li><a href="fergel-certificacoes.html">Certifica√ß√µes</a></li>
 												<li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>
 											</ul>
 							</li>
-                            
+					        
 							<li><a href="produtos-categorias.html">produtos</a></li>
-                            
-                            
+					        
+					        
 							<li>
-								<a href="#">engenharia</a>
-                                			<ul class="dropdown">
+								<a href="#">engenharia ‚Ä¢</a>
+					            			<ul class="dropdown">
 												<li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>
 												<li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>
-												<li><a href="engenharia-estruturas.html">Estruturas de ConstruÁ„o</a></li>
+												<li><a href="engenharia-estruturas.html">Estruturas de Constru√ß√£o</a></li>
 												<li><a href="engenharia-coberturas.html">Coberturas</a></li>
 												<li><a href="engenharia-executadas.html">Obras Executadas</a></li>
-                                            	<li><a href="engenharia-maoobra.html">M„o-de-obra</a></li>
+					                        	<li><a href="engenharia-maoobra.html">M√£o-de-obra</a></li>
 											</ul>
 							</li>
-                            
+					        
 							<li>
-								<a href="contatos.html">Contatos</a>
+								<a href="contatos.php">Contatos ‚Ä¢</a>
+					            			<ul class="dropdown">
+												<li><a href="trabalhe-conosco.php">Trabalhe conosco</a></li>
+											</ul>
 							</li>
-                            
+					        
+						
 						</ul>
 						
 						<!-- MOBILE MENU -->
@@ -210,12 +214,12 @@
 								<a href="engenharia-sistemas.html">engenharia</a>
 							</li>
 							<li>
-								<a href="contatos.html">Contatos</a>
+								<a href="contatos.php">Contatos</a>
 							</li>
 							</ul>
 						</div>
 						<!-- // MOBILE MENU -->
-
+						
 					</nav>
 					<!-- // SITE NAVIGATION MENU -->
 				</div>

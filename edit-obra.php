@@ -74,13 +74,13 @@
 
                                         <div id="sub-cart" class="sub-header">
                                             <div class="cart-header">
-                                                <span style="color:#000;">Voc� n�o tem itens no seu or�amento.</span>
-                                                <small><a href="orcamento.html">� ver tudo �</a></small>
+                                                <span style="color:#000;">Você não tem itens no seu orçamento.</span>
+                                                <small><a href="orcamento.html">• ver tudo •</a></small>
                                             </div>
                                             <ul class="cart-items product-medialist unstyled clearfix"></ul>
                                             <div class="cart-footer">
                                                 <div class="text-right">
-                                                    <a href="orcamento.html" class="btn btn-default btn-round view-cart">ver or�amento</a>
+                                                    <a href="orcamento.html" class="btn btn-default btn-round view-cart">ver orçamento</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -133,68 +133,7 @@
                                 </a>
                             </div>
                             <!-- // SITE LOGO -->
-                            <!-- SITE NAVIGATION MENU -->
-					<nav id="site-menu" role="navigation">
-						<ul class="main-menu hidden-sm hidden-xs">
-                        
-							<li>
-								<a href="index.html">Home</a>
-							</li>
-                            
-							<li>
-								<a href="fergel.html">fergel</a>
-                                			<ul class="dropdown">
-												<li><a href="fergel-missao.html">Miss�o � Vis�o</a></li>
-												<li><a href="fergel-certificacoes.html">Certifica��es</a></li>
-												<li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>
-											</ul>
-							</li>
-                            
-							<li><a href="produtos-categorias.html">produtos</a></li>
-                            
-                            
-							<li>
-								<a href="#">engenharia</a>
-                                			<ul class="dropdown">
-												<li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>
-												<li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>
-												<li><a href="engenharia-estruturas.html">Estruturas de Constru��o</a></li>
-												<li><a href="engenharia-coberturas.html">Coberturas</a></li>
-												<li><a href="engenharia-executadas.html">Obras Executadas</a></li>
-                                            	<li><a href="engenharia-maoobra.html">M�o-de-obra</a></li>
-											</ul>
-							</li>
-                            
-							<li>
-								<a href="contatos.html">Contatos</a>
-							</li>
-                            
-						</ul>
-						
-						<!-- MOBILE MENU -->
-						<div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">
-							<button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>
-							<ul class="dl-menu">
-								<li class="active">
-								<a href="index.html">home</a>
-							</li>
-							<li>
-								<a href="fergel.html">fergel</a>
-							</li>
-							<li>
-								<a href="produtos-categorias.html">produtos</a></li>
-							<li>
-								<a href="engenharia-sistemas.html">engenharia</a>
-							</li>
-							<li>
-								<a href="contatos.html">Contatos</a>
-							</li>
-							</ul>
-						</div>
-						<!-- // MOBILE MENU -->
-
-					</nav>
-					<!-- // SITE NAVIGATION MENU -->
+                            <!-- SITE NAVIGATION MENU -->                            <nav id="site-menu" role="navigation">                            	<ul class="main-menu hidden-sm hidden-xs">                                                            		<li class="active">                            			<a href="index.html">Home</a>                            		</li>                                                                		<li>                            			<a href="fergel.html">fergel •</a>                                        			<ul class="dropdown">                            							<li><a href="fergel-missao.html">Missão • Visão</a></li>                            							<li><a href="fergel-certificacoes.html">Certificações</a></li>                            							<li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>                            						</ul>                            		</li>                                                                		<li><a href="produtos-categorias.html">produtos</a></li>                                                                                                    		<li>                            			<a href="#">engenharia •</a>                                        			<ul class="dropdown">                            							<li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>                            							<li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>                            							<li><a href="engenharia-estruturas.html">Estruturas de Construção</a></li>                            							<li><a href="engenharia-coberturas.html">Coberturas</a></li>                            							<li><a href="engenharia-executadas.html">Obras Executadas</a></li>                                                    	<li><a href="engenharia-maoobra.html">Mão-de-obra</a></li>                            						</ul>                            		</li>                                                                		<li>                            			<a href="contatos.php">Contatos •</a>                                        			<ul class="dropdown">                            							<li><a href="trabalhe-conosco.php">Trabalhe conosco</a></li>                            						</ul>                            		</li>                                                                	                            	</ul>                            	                            	<!-- MOBILE MENU -->                            	<div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">                            		<button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>                            		<ul class="dl-menu">                            			<li class="active">                            			<a href="index.html">home</a>                            		</li>                            		<li>                            			<a href="fergel.html">fergel</a>                            		</li>                            		<li>                            			<a href="produtos-categorias.html">produtos</a></li>                            		<li>                            			<a href="engenharia-sistemas.html">engenharia</a>                            		</li>                            		<li>                            			<a href="contatos.php">Contatos</a>                            		</li>                            		</ul>                            	</div>                            	<!-- // MOBILE MENU -->                            	                            </nav>                            <!-- // SITE NAVIGATION MENU -->
                         </div>
                     </div>
                 </div>
@@ -260,7 +199,7 @@
                                         <div class="panel-heading">
                                             <h4 class="panel-title">
                                                 <a data-toggle="collapse" data-parent="#checkout-collapse" href="#checkout-collapse1">
-                                                    <h4> ALTERACAO DE OBRA DE: <?php echo $linha_clientes['razao_social']; ?></h4>
+                                                     <strong style="color: #BE1E2D;">1º PASSO: </strong>ALTERACAO DE OBRA DE: <?php echo $linha_clientes['razao_social']; ?>
                                                 </a>
                                             </h4>
                                         </div>
@@ -311,7 +250,7 @@
                                                                         </div>
 
                                                                         <div class="radio">
-                                                                            <input name="situacao" value="2" type="radio" name="customer" id="radio-guest" class="prettyCheckable" data-label="conclu�da" />
+                                                                            <input name="situacao" value="2" type="radio" name="customer" id="radio-guest" class="prettyCheckable" data-label="concluída" />
                                                                         </div>
                                                                         <?php
                                                                     } else if ($row_obra_edit['situacao'] == 2) {
@@ -331,7 +270,7 @@
                                                                 <!-- espaco --><div class="space20 clearfix"></div><!-- espaco -->
 
                                                                 <div class="form-group stylish-input">
-                                                                    <label for="inputEmail" class="col-xs-12 col-sm-3 control-label">endere�o</label>
+                                                                    <label for="inputEmail" class="col-xs-12 col-sm-3 control-label">endereço</label>
                                                                     <div class="col-lg-7">
                                                                         <input name="endereco" value="<?php echo $row_obra_edit['endereco_obra']; ?>" type="text" class="form-control" id="inputEmail">
                                                                     </div>
@@ -406,7 +345,7 @@
                                         <div class="panel-heading">
                                             <h4 class="panel-title">
                                                 <a data-toggle="collapse" data-parent="#checkout-collapse" href="#checkout-collapse2">
-                                                    avisos e observa&ccedil;&otilde;es
+                                                    <strong style="color: #BE1E2D;">2º PASSO: </strong> avisos e observa&ccedil;&otilde;es
                                                 </a>
                                             </h4>
                                         </div>
@@ -418,15 +357,15 @@
 
                                                     <div class="col-xs-11 col-sm-11 col-md-5" style="margin-left:30px;">
                                                         <div class="form-group stylish-input">
-                                                            <label for="contactMSG" class="required">AVISOS!</label>
-                                                            <textarea name="avisos" id="contactMSG" class="form-control" name="message" style="height: 178px;" data-validate=".{2,400}$" required><?php echo $row_obra_edit['avisos']; ?></textarea>
+                                                            <label for="contactMSG" >AVISOS!</label>
+                                                            <textarea name="avisos" id="contactMSG" class="form-control" name="message" style="height: 178px;" data-validate=".{2,400}$"><?php echo $row_obra_edit['avisos']; ?></textarea>
                                                         </div>
                                                     </div>
 
                                                     <div class="col-xs-11 col-sm-11 col-md-6" style="margin-left:10px; font-family: Raleway;">
                                                         <div class="form-group stylish-input">
-                                                            <label for="contactMSG" class="required">observa&ccedil;&otilde;es</label>
-                                                            <textarea name="observacoes" id="contactMSG" class="form-control" name="message" style="height: 178px;" data-validate=".{2,400}$" required><?php echo $row_obra_edit['obs']; ?></textarea>
+                                                            <label for="contactMSG">observa&ccedil;&otilde;es</label>
+                                                            <textarea name="observacoes" id="contactMSG" class="form-control" name="message" style="height: 178px;" data-validate=".{2,400}$" ><?php echo $row_obra_edit['obs']; ?></textarea>
                                                         </div>
                                                     </div>
 
@@ -442,7 +381,7 @@
                                         <div class="panel-heading">
                                             <h4 class="panel-title">
                                                 <a data-toggle="collapse" data-parent="#checkout-collapse" href="#checkout-collapse3">
-                                                    GALERIA DE FOTOS
+                                                    <strong style="color: #BE1E2D;">3º PASSO: </strong> GALERIA DE FOTOS
                                                 </a>
                                             </h4>
                                         </div>
@@ -513,7 +452,7 @@
                                         <div class="panel-heading">
                                             <h4 class="panel-title">
                                                 <a data-toggle="collapse" data-parent="#checkout-collapse" href="#checkout-collapse4">
-                                                    ARQUIVOS PARA DOWNLOAD
+                                                    <strong style="color: #BE1E2D;">4º PASSO: </strong> ARQUIVOS PARA DOWNLOAD
                                                 </a>
                                             </h4>
                                         </div>
@@ -528,7 +467,7 @@
                                                         <div class="form-group stylish-input">
                                                             <label for="contactMSG"><b>Arquivo</b></label>
                                                             <input name="arquivo" type="file"  class="default" />
-                                                            <label for="inputEmail" class="col-xs-12 col-sm-3 control-label">T�TULO e FORMATO</label>
+                                                            <label for="inputEmail" class="col-xs-12 col-sm-3 control-label">TÍTULO e FORMATO</label>
                                                             <div class="col-lg-7">
                                                                 <input name="nomearquivo" type="text" class="form-control" id="inputEmail">
                                                             </div>

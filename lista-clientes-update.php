@@ -97,13 +97,13 @@
 								
 								<div id="sub-cart" class="sub-header">
 									<div class="cart-header">
-										<span style="color:#000;">VocÍ n„o tem itens no seu orÁamento.</span>
-										<small><a href="orcamento.html">ï ver tudo ï</a></small>
+										<span style="color:#000;">Voc√™ n√£o tem itens no seu or√ßamento.</span>
+										<small><a href="orcamento.html">‚Ä¢ ver tudo ‚Ä¢</a></small>
 									</div>
 									<ul class="cart-items product-medialist unstyled clearfix"></ul>
 									<div class="cart-footer">
 										<div class="text-right">
-											<a href="orcamento.html" class="btn btn-default btn-round view-cart">ver orÁamento</a>
+											<a href="orcamento.html" class="btn btn-default btn-round view-cart">ver or√ßamento</a>
 										</div>
 									</div>
 								</div>
@@ -156,68 +156,7 @@
 						</a>
 					</div>
 					<!-- // SITE LOGO -->
-					<!-- SITE NAVIGATION MENU -->
-					<nav id="site-menu" role="navigation">
-						<ul class="main-menu hidden-sm hidden-xs">
-                        
-							<li>
-								<a href="index.html">Home</a>
-							</li>
-                            
-							<li>
-								<a href="fergel.html">fergel</a>
-                                			<ul class="dropdown">
-												<li><a href="fergel-missao.html">Miss„o ï Vis„o</a></li>
-												<li><a href="fergel-certificacoes.html">CertificaÁıes</a></li>
-												<li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>
-											</ul>
-							</li>
-                            
-							<li><a href="produtos-categorias.html">produtos</a></li>
-                            
-                            
-							<li>
-								<a href="#">engenharia</a>
-                                			<ul class="dropdown">
-												<li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>
-												<li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>
-												<li><a href="engenharia-estruturas.html">Estruturas de ConstruÁ„o</a></li>
-												<li><a href="engenharia-coberturas.html">Coberturas</a></li>
-												<li><a href="engenharia-executadas.html">Obras Executadas</a></li>
-                                            	<li><a href="engenharia-maoobra.html">M„o-de-obra</a></li>
-											</ul>
-							</li>
-                            
-							<li>
-								<a href="contatos.html">Contatos</a>
-							</li>
-                            
-						</ul>
-						
-						<!-- MOBILE MENU -->
-						<div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">
-							<button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>
-							<ul class="dl-menu">
-								<li class="active">
-								<a href="index.html">home</a>
-							</li>
-							<li>
-								<a href="fergel.html">fergel</a>
-							</li>
-							<li>
-								<a href="produtos-categorias.html">produtos</a></li>
-							<li>
-								<a href="engenharia-sistemas.html">engenharia</a>
-							</li>
-							<li>
-								<a href="contatos.html">Contatos</a>
-							</li>
-							</ul>
-						</div>
-						<!-- // MOBILE MENU -->
-
-					</nav>
-					<!-- // SITE NAVIGATION MENU -->
+					<!-- SITE NAVIGATION MENU -->					<nav id="site-menu" role="navigation">						<ul class="main-menu hidden-sm hidden-xs">					    							<li class="active">								<a href="index.html">Home</a>							</li>					        							<li>								<a href="fergel.html">fergel ‚Ä¢</a>					            			<ul class="dropdown">												<li><a href="fergel-missao.html">Miss√£o ‚Ä¢ Vis√£o</a></li>												<li><a href="fergel-certificacoes.html">Certifica√ß√µes</a></li>												<li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>											</ul>							</li>					        							<li><a href="produtos-categorias.html">produtos</a></li>					        					        							<li>								<a href="#">engenharia ‚Ä¢</a>					            			<ul class="dropdown">												<li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>												<li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>												<li><a href="engenharia-estruturas.html">Estruturas de Constru√ß√£o</a></li>												<li><a href="engenharia-coberturas.html">Coberturas</a></li>												<li><a href="engenharia-executadas.html">Obras Executadas</a></li>					                        	<li><a href="engenharia-maoobra.html">M√£o-de-obra</a></li>											</ul>							</li>					        							<li>								<a href="contatos.php">Contatos ‚Ä¢</a>					            			<ul class="dropdown">												<li><a href="trabalhe-conosco.php">Trabalhe conosco</a></li>											</ul>							</li>					        												</ul>												<!-- MOBILE MENU -->						<div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">							<button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>							<ul class="dl-menu">								<li class="active">								<a href="index.html">home</a>							</li>							<li>								<a href="fergel.html">fergel</a>							</li>							<li>								<a href="produtos-categorias.html">produtos</a></li>							<li>								<a href="engenharia-sistemas.html">engenharia</a>							</li>							<li>								<a href="contatos.php">Contatos</a>							</li>							</ul>						</div>						<!-- // MOBILE MENU -->											</nav>					<!-- // SITE NAVIGATION MENU -->
 				</div>
 			</div>
 		</div>
@@ -231,7 +170,7 @@
                     <div class="relative">
                         <ul class="bc unstyled clearfix">
                             <li>ADMINISTRA&Ccedil;&Atilde;O </li>
-                            <li class="active">AlteraÁ„o de cadastro de clientes</li>
+                            <li class="active">Altera√ß√£o de cadastro de clientes</li>
                         </ul>
                     </div>
                 </div>
@@ -264,7 +203,7 @@
                                 <div class="panel panel-default">
 
                                     <div class="panel-heading">
-                                        <h4 class="panel-title">ALTERA«√O DE CADASTRO DE CLIENTE</h4>
+                                        <h4 class="panel-title">ALTERA√á√ÉO DE CADASTRO DE CLIENTE</h4>
                                     </div>
 
                                     <div id="checkout-collapse2" class="panel-collapse">
