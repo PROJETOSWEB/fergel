@@ -193,11 +193,11 @@
 								<div class="panel panel-default">
 
 									<div class="panel-heading">
-										<h4 class="panel-title" style="height: 30px;">
+										<div class="panel-title" style="height: 30px;">
 											<a data-toggle="collapse" data-parent="#checkout-collapse" href="#checkout-collapse1">
-											   <h4 style="float: left;"> INFORMA&Ccedil;&Otilde;ES SOBRE A OBRA DE:</h4> 											   <h4 style="color:#C00; float: left; font-family: Raleway;">  <?php echo $decodificar_cliente; ?></h4>
+											   <h4 style="float: left;"> INFORMAÇÕES SOBRE A OBRA DE: </h4> 											   <h4 style="color:#C00; float: left; font-family: Raleway;">  <?php echo $decodificar_cliente; ?></h4>
 											</a>
-										</h4>
+										</div>
 									</div>
 
 									<div id="checkout-collapse1" class="panel-collapse collapse in">
@@ -212,10 +212,7 @@
 												$row_obra = mysql_fetch_array($executa_sql_seleciona_obra);
 												?>
 
-												<div class="col-xs-12 col-sm-6">
-
-													<div class="inner">
-
+												<div class="col-xs-12 col-sm-6">												
 														<div class="form-group stylish-input">
 															<div class="col-sm-8 col-lg-12" style="padding-left:1px;">
 																<h50>nome da obra</h50> 
@@ -236,30 +233,22 @@
 
 														<div class="form-group stylish-input">
 															<div class="col-sm-8 col-lg-8" style="padding-left:1px;">
-																<h50>situa&ccedil;&atilde;o da obra</h50> 
-																<p>
-																<div class="btn btn-warning"><?php
+																<h50>situação da obra</h50> 
+																<div class="btn btn-warning">																	<?php
 																	if ($row_obra['situacao'] == 1) {
 																		echo "em andamento!";
 																	} else if ($row_obra['situacao'] == 2) {
 
-																		echo "Concluido!";
+																		echo "Concluida!";
 																	}
 																	?>
 																</div>
-																</p>
 															</div>
-														</div> 
-
-													</div> <!-- // INNER -->
+														</div> 														
 												</div> <!-- // col-xs-12 col-sm-6 -->
 
-												<!-- ESPA�O --><div class="space40 visible-xs"></div> <!-- ESPA�O -->
 
 												<div class="col-xs-12 col-sm-6">
-													<div class="inner">
-
-
 														<div class="form-group stylish-input">
 															<div class="col-sm-8 col-lg-8" style="padding-left:1px;">
 																<h50>datas da obra</h50> 
@@ -277,8 +266,6 @@
 														</div>
 
 														<!-- ESPA�O --> <div class="space20 clearfix"></div><!-- ESPA�O -->
-
-													</div><!-- // INNER -->
 												</div><!-- // col-xs-12 col-sm-6 -->
 
 											</div> <!--// ROW -->
@@ -291,7 +278,7 @@
 									<div class="panel-heading">
 										<h4 class="panel-title">
 											<a data-toggle="collapse" data-parent="#checkout-collapse" href="#checkout-collapse2">
-												avisos e observa&ccedil;&otilde;es
+												avisos e observações
 											</a>
 										</h4>
 									</div>
@@ -319,7 +306,7 @@
 													<div class="inner">
 														<div class="form-group stylish-input">
 															<div class="col-sm-8 col-lg-10" style="padding-left:1px;">
-																<h50>OBSERVA&Ccedil;&Otilde;ES</h50> 
+																<h50>OBSERVAÇÕES</h50> 
 																<hr/>
 																<p><?php echo $row_obra['obs']; ?></p>
 															</div>
