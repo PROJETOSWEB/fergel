@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.4.12
+-- version 4.3.7
 -- http://www.phpmyadmin.net
 --
--- Host: localhost
--- Tempo de geração: 05/10/2015 às 23:39
--- Versão do servidor: 5.6.25
--- Versão do PHP: 5.6.11
+-- Host: mysql01-farm58.kinghost.net
+-- Tempo de geração: 06/10/2015 às 15:35
+-- Versão do servidor: 5.5.43-log
+-- Versão do PHP: 5.3.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -14,7 +14,7 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
 
 --
 -- Banco de dados: `fergel`
@@ -31,16 +31,14 @@ CREATE TABLE IF NOT EXISTS `arquivos` (
   `id_obra` int(10) unsigned NOT NULL DEFAULT '0',
   `arquivo` varchar(45) NOT NULL DEFAULT '',
   `nome` varchar(45) NOT NULL DEFAULT ''
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 
 --
 -- Fazendo dump de dados para tabela `arquivos`
 --
 
 INSERT INTO `arquivos` (`id_arquivos`, `id_obra`, `arquivo`, `nome`) VALUES
-(1, 2, 'Resultados Complementares JOB1899 Dia?rio do ', 'teste PDF'),
-(2, 3, 'banner-topo-bisneto940x218.png', 'teste PDF'),
-(3, 6, 'teste-envio.pdf', 'teste de arquivo PDF');
+(2, 2, 'an_peq-fono.pdf', 'Anuncio • PDF');
 
 -- --------------------------------------------------------
 
@@ -9798,17 +9796,18 @@ CREATE TABLE IF NOT EXISTS `clientes` (
   `senha` varchar(45) NOT NULL DEFAULT '',
   `status` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '1-ADM 2-CLIENTE',
   `id_estado` int(10) unsigned NOT NULL DEFAULT '0',
-  `id_cidade` int(10) unsigned NOT NULL DEFAULT '0'
+  `id_cidade` int(10) unsigned NOT NULL DEFAULT '0',
+  `id_clientes_cadastro` int(11) NOT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
 
 --
 -- Fazendo dump de dados para tabela `clientes`
 --
 
-INSERT INTO `clientes` (`id_clientes`, `razao_social`, `cnpj`, `email`, `telefone`, `contato`, `endereco`, `bairro`, `cep`, `login`, `senha`, `status`, `id_estado`, `id_cidade`) VALUES
-(1, 'Pollyanna', '11460137000145', 'teste@gmail.com', '92982702518', 'd', 'Rua Djalma Dutra', 'Nossa Senhora das Graças', '6979060', 'pollyanna', 'fergel', 1, 1, 1),
-(6, 'AMAZON TAPE INDUSTRIA E COMÉRCIO DE FITAS ADESIVAS LTDA', '07.430.901/0001-62', 'claudinei@amazontape.com.br', '(092) 3613 4062            ', 'Claudinei', 'AVENIDA MINISTRO MÁRIO ANDREAZZA No 880, GALP', 'DISTRITO INDUSTRIAL ', '69075-830', 'amazontape', '07430901', 2, 3, 240),
-(8, 'Teste cliente NOVO', '22222222222', 'thiago@maneschy.com', '(92) 9826-30602', 'Thiago', 'rua buriti, 508', 'xxxxxxx', '69041-025', 'clienteteste', '123456', 2, 240, 3);
+INSERT INTO `clientes` (`id_clientes`, `razao_social`, `cnpj`, `email`, `telefone`, `contato`, `endereco`, `bairro`, `cep`, `login`, `senha`, `status`, `id_estado`, `id_cidade`, `id_clientes_cadastro`) VALUES
+(1, 'Pollyanna', '11460137000145', 'teste@gmail.com', '92982702518', 'd', 'Rua Djalma Dutra', 'Nossa Senhora das Graças', '6979060', 'pollyanna', 'fergel', 1, 1, 1, 0),
+(6, 'AMAZON TAPE INDÚTRIA E COMÉRCIO DE FITAS ADESIVAS LTDA', '07.430.901/0001-62', 'claudinei@amazontape.com.br', '(092) 3613 4062            ', 'Claudinei', 'AVENIDA MINISTRO MÁRIO ANDREAZZA No 880, GALP', 'DISTRITO INDUSTRIAL ', '69075-830', 'amazontape', '07430901', 2, 3, 240, 1),
+(7, 'Teste cliente', '000000000000', 'maneschy.com@gmail.com', '3333333', 'Thiago', 'xxxxxx', 'xxxxxxx', '690999', 'clienteteste', '123', 2, 240, 3, 1);
 
 -- --------------------------------------------------------
 
@@ -9866,29 +9865,18 @@ CREATE TABLE IF NOT EXISTS `fotos` (
   `id_obra` int(10) unsigned NOT NULL DEFAULT '0',
   `foto` varchar(100) NOT NULL DEFAULT '',
   `nome` varchar(200) NOT NULL DEFAULT ''
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
 
 --
 -- Fazendo dump de dados para tabela `fotos`
 --
 
 INSERT INTO `fotos` (`idfotos`, `id_obra`, `foto`, `nome`) VALUES
-(1, 2, 'IMG_7689.jpg', 'NOV - 14'),
-(2, 2, 'IMG_7690.jpg', 'NOV - 14'),
-(3, 2, 'IMG_7691.jpg', ''),
 (4, 3, 'IMG_7689.jpg', ''),
 (5, 2, 'banner.png', 'obra teste xxx'),
 (6, 2, 'banner2.jpg', 'obra teste xxx'),
 (7, 2, 'banner3.png', 'obra teste xxx'),
-(8, 2, 'banner4.png', 'obra teste xxx'),
-(9, 3, 'banner.png', 'obra teste xxx'),
-(10, 3, 'banner2.jpg', 'obra teste xxx'),
-(11, 3, 'banner3.png', 'obra teste xxx'),
-(12, 3, 'banner4.png', 'obra teste xxx'),
-(13, 6, 'banner.png', 'obra teste xxx'),
-(14, 6, 'banner4.png', 'obra teste xxx'),
-(16, 6, 'banner3.png', 'obra teste xxx'),
-(18, 6, 'banner.png', 'dfdfdf');
+(8, 2, 'banner4.png', 'obra teste xxx');
 
 -- --------------------------------------------------------
 
@@ -9907,15 +9895,15 @@ CREATE TABLE IF NOT EXISTS `obra` (
   `avisos` longtext NOT NULL,
   `obs` longtext NOT NULL,
   `endereco_obra` varchar(200) NOT NULL DEFAULT ''
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 
 --
 -- Fazendo dump de dados para tabela `obra`
 --
 
 INSERT INTO `obra` (`id_obra`, `id_clientes`, `situacao`, `obra`, `responsavel`, `prev_inicio`, `prev_final`, `avisos`, `obs`, `endereco_obra`) VALUES
-(1, 6, 1, 'Galp', 'Eng. Pollyanna', '09/12/2014', '30/10/2015', '', '', 'Rua Aninga, s/n. Distrito Industrial 2'),
-(6, 8, 1, 'OBRA GALPAO ESPORTES', 'Soares', '25/11/2015', '25/12/2015', 'SADSDDA ASDASDSADASD ASDASDASD ASDASD', 'ASDASDASD ASDASDASDA ASDASDASD ASD', 'rua buriti, 508');
+(1, 6, 1, 'Galp', 'Eng. Pollyanna', '09/12/2014', '30/10/2015', 'nononono', 'nononono', 'Rua Aninga, s/n. Distrito Industrial 2'),
+(2, 7, 1, 'teste xxx', 'Soares', '25/11/2015', '25/12/2015', 'nonononononon onononono nonono', 'nononononon ononononon ononononon oonono', 'rua buriti, 508');
 
 --
 -- Índices de tabelas apagadas
@@ -9931,8 +9919,7 @@ ALTER TABLE `arquivos`
 -- Índices de tabela `cidade`
 --
 ALTER TABLE `cidade`
-  ADD PRIMARY KEY (`cid_id`),
-  ADD KEY `fk_est_id_estado` (`est_id`);
+  ADD PRIMARY KEY (`cid_id`), ADD KEY `fk_est_id_estado` (`est_id`);
 
 --
 -- Índices de tabela `clientes`
@@ -9944,23 +9931,19 @@ ALTER TABLE `clientes`
 -- Índices de tabela `estado`
 --
 ALTER TABLE `estado`
-  ADD PRIMARY KEY (`est_id`),
-  ADD UNIQUE KEY `est_uf` (`est_uf`),
-  ADD UNIQUE KEY `est_nome` (`est_nome`);
+  ADD PRIMARY KEY (`est_id`), ADD UNIQUE KEY `est_uf` (`est_uf`), ADD UNIQUE KEY `est_nome` (`est_nome`);
 
 --
 -- Índices de tabela `fotos`
 --
 ALTER TABLE `fotos`
-  ADD PRIMARY KEY (`idfotos`),
-  ADD KEY `FK_fotos_1` (`id_obra`) USING BTREE;
+  ADD PRIMARY KEY (`idfotos`), ADD KEY `FK_fotos_1` (`id_obra`) USING BTREE;
 
 --
 -- Índices de tabela `obra`
 --
 ALTER TABLE `obra`
-  ADD PRIMARY KEY (`id_obra`),
-  ADD KEY `FK_obra_1` (`id_clientes`);
+  ADD PRIMARY KEY (`id_obra`), ADD KEY `FK_obra_1` (`id_clientes`);
 
 --
 -- AUTO_INCREMENT de tabelas apagadas
@@ -9970,7 +9953,7 @@ ALTER TABLE `obra`
 -- AUTO_INCREMENT de tabela `arquivos`
 --
 ALTER TABLE `arquivos`
-  MODIFY `id_arquivos` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
+  MODIFY `id_arquivos` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT de tabela `cidade`
 --
@@ -9990,12 +9973,12 @@ ALTER TABLE `estado`
 -- AUTO_INCREMENT de tabela `fotos`
 --
 ALTER TABLE `fotos`
-  MODIFY `idfotos` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=19;
+  MODIFY `idfotos` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=9;
 --
 -- AUTO_INCREMENT de tabela `obra`
 --
 ALTER TABLE `obra`
-  MODIFY `id_obra` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=7;
+  MODIFY `id_obra` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
 --
 -- Restrições para dumps de tabelas
 --
@@ -10004,13 +9987,13 @@ ALTER TABLE `obra`
 -- Restrições para tabelas `cidade`
 --
 ALTER TABLE `cidade`
-  ADD CONSTRAINT `fk_est_id_estado` FOREIGN KEY (`est_id`) REFERENCES `estado` (`est_id`);
+ADD CONSTRAINT `fk_est_id_estado` FOREIGN KEY (`est_id`) REFERENCES `estado` (`est_id`);
 
 --
 -- Restrições para tabelas `obra`
 --
 ALTER TABLE `obra`
-  ADD CONSTRAINT `FK_obra_1` FOREIGN KEY (`id_clientes`) REFERENCES `clientes` (`id_clientes`);
+ADD CONSTRAINT `FK_obra_1` FOREIGN KEY (`id_clientes`) REFERENCES `clientes` (`id_clientes`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
