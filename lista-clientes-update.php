@@ -156,7 +156,72 @@
 						</a>
 					</div>
 					<!-- // SITE LOGO -->
-					<!-- SITE NAVIGATION MENU -->					<nav id="site-menu" role="navigation">						<ul class="main-menu hidden-sm hidden-xs">					    							<li class="active">								<a href="index.html">Home</a>							</li>					        							<li>								<a href="fergel.html">fergel •</a>					            			<ul class="dropdown">												<li><a href="fergel-missao.html">Missão • Visão</a></li>												<li><a href="fergel-certificacoes.html">Certificações</a></li>												<li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>											</ul>							</li>					        							<li><a href="produtos-categorias.html">produtos</a></li>					        					        							<li>								<a href="#">engenharia •</a>					            			<ul class="dropdown">												<li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>												<li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>												<li><a href="engenharia-estruturas.html">Estruturas de Construção</a></li>												<li><a href="engenharia-coberturas.html">Coberturas</a></li>												<li><a href="engenharia-executadas.html">Obras Executadas</a></li>					                        	<li><a href="engenharia-maoobra.html">Mão-de-obra</a></li>											</ul>							</li>					        							<li>								<a href="contatos.php">Contatos •</a>					            			<ul class="dropdown">												<li><a href="trabalhe-conosco.php">Trabalhe conosco</a></li>											</ul>							</li>					        												</ul>												<!-- MOBILE MENU -->						<div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">							<button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>							<ul class="dl-menu">								<li class="active">								<a href="index.html">home</a>							</li>							<li>								<a href="fergel.html">fergel</a>							</li>							<li>								<a href="produtos-categorias.html">produtos</a></li>							<li>								<a href="engenharia-sistemas.html">engenharia</a>							</li>							<li>								<a href="contatos.php">Contatos</a>							</li>							</ul>						</div>						<!-- // MOBILE MENU -->											</nav>					<!-- // SITE NAVIGATION MENU -->
+					<!-- SITE NAVIGATION MENU -->
+					<nav id="site-menu" role="navigation">
+						<ul class="main-menu hidden-sm hidden-xs">
+					    
+							<li class="active">
+								<a href="index.html">Home</a>
+							</li>
+					        
+							<li>
+								<a href="fergel.html">fergel •</a>
+					            			<ul class="dropdown">
+												<li><a href="fergel-missao.html">Missão • Visão</a></li>
+												<li><a href="fergel-certificacoes.html">Certificações</a></li>
+												<li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>
+											</ul>
+							</li>
+					        
+							<li><a href="produtos-categorias.html">produtos</a></li>
+					        
+					        
+							<li>
+								<a href="#">engenharia •</a>
+					            			<ul class="dropdown">
+												<li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>
+												<li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>
+												<li><a href="engenharia-estruturas.html">Estruturas de Construção</a></li>
+												<li><a href="engenharia-coberturas.html">Coberturas</a></li>
+												<li><a href="engenharia-executadas.html">Obras Executadas</a></li>
+					                        	<li><a href="engenharia-maoobra.html">Mão-de-obra</a></li>
+											</ul>
+							</li>
+					        
+							<li>
+								<a href="contatos.php">Contatos •</a>
+					            			<ul class="dropdown">
+												<li><a href="trabalhe-conosco.php">Trabalhe conosco</a></li>
+											</ul>
+							</li>
+					        
+						
+						</ul>
+						
+						<!-- MOBILE MENU -->
+						<div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">
+							<button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>
+							<ul class="dl-menu">
+								<li class="active">
+								<a href="index.html">home</a>
+							</li>
+							<li>
+								<a href="fergel.html">fergel</a>
+							</li>
+							<li>
+								<a href="produtos-categorias.html">produtos</a></li>
+							<li>
+								<a href="engenharia-sistemas.html">engenharia</a>
+							</li>
+							<li>
+								<a href="contatos.php">Contatos</a>
+							</li>
+							</ul>
+						</div>
+						<!-- // MOBILE MENU -->
+						
+					</nav>
+					<!-- // SITE NAVIGATION MENU -->
 				</div>
 			</div>
 		</div>
@@ -188,9 +253,9 @@
                                 <nav class="nav-side side-section">
                                     <ul class="nav nav-tabs nav-stacked">
                                         <li><strong>MENU ADIMINISTRATIVO</strong></li>
-                                        <li><a href="add-cliente.php">Adicionar cliente</a></li>
-                                        <li><a href="lista-clientes.php">Lista de clientes</a></li>
-                                        <li><a href="add-dados.php">Incluir dados</a></li>
+                                        <li><a href="add-cliente.php?id=<?php echo $_GET['idc']; ?>">Adicionar cliente</a></li>
+                                        <li><a href="lista-clientes.php?id=<?php echo $_GET['idc']; ?>">Lista de clientes</a></li>
+                                        <li><a href="add-dados.php?id=<?php echo $_GET['idc']; ?>">Incluir dados</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -216,7 +281,7 @@
                                             $linha_edit_cliente = mysql_fetch_array($executa_seleciona_update);
                                             ?>
                                             
-                                            <form  class="form-horizontal" method="POST" role="form" action="php/edit_clientes.php?id=<?php echo $idc; ?>">
+                                            <form  class="form-horizontal" method="POST" role="form" action="php/edit_clientes.php?idc=<?php echo $_GET['id']; ?>&id=<?php echo $_GET['idc']; ?>">
                                                 <div class="row">
                                                     <div class="col-xs-12 col-sm-12 col-md-6">
                                                         <div class="form-group stylish-input">

@@ -16,10 +16,12 @@ $cidade = $_POST['cidades'];
 $login = $_POST['login'];
 $senha = $_POST['senha'];
 
+$id_cliente = $_POST['id_cliente'];
+
 
 //INSERINDO DADOS NO BANCO
-$sql_insert = "INSERT INTO clientes(razao_social, cnpj, email, telefone, contato, endereco, bairro, cep, login, senha, status, id_estado, id_cidade)"
-              ."VALUES('$razaosocial', '$cnpj', '$email', '$telefone', '$contato', '$endereco', '$bairro', '$cep', '$login', '$senha', 2, $cidade, $estado)";
+$sql_insert = "INSERT INTO clientes(razao_social, cnpj, email, telefone, contato, endereco, bairro, cep, login, senha, status, id_estado, id_cidade, id_clientes_cadastro)"
+              ."VALUES('$razaosocial', '$cnpj', '$email', '$telefone', '$contato', '$endereco', '$bairro', '$cep', '$login', '$senha', 2, $cidade, $estado, $id_cliente)";
 
 
 //EXECUTANDO QUERY
@@ -30,14 +32,14 @@ $executa_sql = mysql_query($sql_insert)or die(mysql_error());
 if ($executa_sql){
     ?>
     <script>
-        window.location.href = '../lista-clientes.php?resposta=certo';
+        window.location.href = '../lista-clientes.php?resposta=certo&id=<?php echo $id_cliente?>';
     </script>
     <?php
 
 } else {
     ?>
     <script>
-        window.location.href = '../lista-clientes.php?resposta=erro';
+        window.location.href = '../lista-clientes.php?resposta=erro&id=<?php echo $id_cliente; ?>';
     </script>
     <?php
 }

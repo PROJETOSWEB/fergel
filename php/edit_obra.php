@@ -99,7 +99,7 @@ if ($executa_update_dados) {
     } else {
         ?>
         <script>
-            window.location.href = '../edit-obra.php?id=<?php echo $id_obra; ?>';
+            window.location.href = '../edit-obra.php?id=<?php echo $id_obra; ?>&idc=<?php echo $_GET['idc']; ?>&cliente=<?php echo $_GET['cliente']; ?>';
         </script>
         <?php
     }

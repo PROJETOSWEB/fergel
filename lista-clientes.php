@@ -230,9 +230,9 @@
                                 <nav class="nav-side side-section">
                                     <ul class="nav nav-tabs nav-stacked">
                                         <li><strong>MENU ADIMINISTRATIVO</strong></li>
-                                        <li><a href="add-cliente.php">Adicionar cliente</a></li>
+                                        <li><a href="add-cliente.php?id=<?php echo $_GET['id']; ?>">Adicionar cliente</a></li>
                                         <li><a style="color:#921812;" href="#">Lista de clientes</a></li>
-                                        <li><a href="add-dados.php">Incluir dados</a></li>
+                                        <li><a href="add-dados.php?id=<?php echo $_GET['id']; ?>">Incluir dados</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -245,7 +245,9 @@
                                     <div class="panel-heading" style="height: 35px;">
                                         <h4 class="panel-title" style="float: left;">
                                             lista de clientes - quantidade de obras
-                                        </h4>                                                                                <h4 class="panel-title" style="float: right;"> quant. obras</h4>
+                                        </h4>
+                                        
+                                        <h4 class="panel-title" style="float: right;"> quant. obras</h4>
                                     </div>
 
                                     <div id="checkout-collapse6" class="panel-collapse">
@@ -254,12 +256,13 @@
                                                 <table class="shop-summary">
 
                                                     <?php
-                                                    $sql_executa = "SELECT * FROM clientes WHERE status = 2";
+                                                    $id_cliente = $_GET['id'];
+                                                    $sql_executa = "SELECT * FROM clientes WHERE status = 2 AND id_clientes_cadastro = $id_cliente";
                                                     $executa_sql = mysql_query($sql_executa)or die(mysql_error());
 
                                                     while ($linha_clientes = mysql_fetch_array($executa_sql)) {
 
-                                                        $ido = $linha_clientes['id_clientes'];
+                                                       $ido = $linha_clientes['id_clientes'];
                                                        $sql_count_obra = "SELECT COUNT(*) as qtdo FROM clientes INNER JOIN obra "
                                                                         . "ON clientes.id_clientes = obra.id_clientes "
                                                                         . "WHERE obra.id_clientes = $ido";
@@ -269,7 +272,9 @@
                                                          
                                                         ?>                
                                                         <tr class="tabela">
-                                                            <td style="width: 540px;"><a href="lista-obras-cliente.php?id=<?php echo $linha_clientes['id_clientes']; ?>"><?php echo $linha_clientes['razao_social']; ?></a></td>                                                            <td><a href="lista-clientes-update.php?id=<?php echo $linha_clientes['id_clientes']; ?>"><img width="20" height="20" src="img/ico-editar.png" title="Alterar"></a></td>                                                            <td><a href="php/excluir_cliente.php?id=<?php echo $linha_clientes['id_clientes']; ?>"><img width="20" height="20" src="img/ico-delete.png" title="Excluir"></a></td>
+                                                            <td style="width: 540px;"><a href="lista-obras-cliente.php?idc=<?php echo $_GET['id'];?>&id=<?php echo $linha_clientes['id_clientes']; ?>"><?php echo $linha_clientes['razao_social']; ?></a></td>
+                                                            <td><a href="lista-clientes-update.php?id=<?php echo $linha_clientes['id_clientes']; ?>&idc=<?php echo $_GET['id']; ?>"><img width="20" height="20" src="img/ico-editar.png" title="Alterar"></a></td>
+                                                            <td><a href="php/excluir_cliente.php?id=<?php echo $linha_clientes['id_clientes']; ?>&idc=<?php echo $_GET['id']; ?>"><img width="20" height="20" src="img/ico-delete.png" title="Excluir"></a></td>
                                                             <td style="width: 80px; font-weight:600; font-size: 20px;"><a href="lista-obras-cliente.php?id=<?php echo $linha_clientes['id_clientes']; ?>"><?php echo $linha_obr['qtdo'];?></a></td>
                                                             
                                                         </tr>

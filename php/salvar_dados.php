@@ -122,14 +122,14 @@ if ($executa_sql_inserir) {
 if ($executa_sql_foto4 == true || $executa_sql_foto1 == true || $executa_sql_foto2 == true || $executa_sql_foto3 == true) {
     ?>
     <script>
-        window.location.href = '../add-dados.php?r=certo';
+        window.location.href = '../add-dados.php?r=certo&id=<?php echo $_GET['id']; ?>';
     </script>
     <?php
 
 } else {
     ?>
     <script>
-        window.location.href = '../add-dados.php?r=erro';
+        window.location.href = '../add-dados.php?r=erro&id=<?php echo $_GET['id']; ?>';
     </script>
     <?php
 

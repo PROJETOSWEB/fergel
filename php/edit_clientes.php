@@ -15,11 +15,11 @@ $estado = $_POST['estados'];
  $cidade = $_POST['cidades'];
 $login = $_POST['login'];
 $senha = $_POST['senha'];
-$id_cliente = $_GET['id'];
+$id_cliente = $_GET['idc'];
 
 
 
-$sql_update_cliente = "UPDATE clientes SET razao_social= '$razaosocial', cnpj = '$cnpj', email = '$email', "
+ $sql_update_cliente = "UPDATE clientes SET razao_social= '$razaosocial', cnpj = '$cnpj', email = '$email', "
         . "telefone = '$telefone', contato = '$contato', endereco = '$endereco', bairro = '$bairro', "
         . "cep = '$cep', login = '$login', senha = '$senha', status = 2, id_estado = $estado,"
         . "id_cidade = $cidade WHERE id_clientes = $id_cliente";
@@ -30,13 +30,13 @@ $executa_sql_update = mysql_query($sql_update_cliente)or die(mysql_error());
 if ($executa_sql_update) {
     ?>
     <script>
-        window.location.href = '../lista-clientes-update.php?r=certo&id=<?php echo $id_cliente; ?>'
+        window.location.href = '../lista-clientes-update.php?r=certo&id=<?php echo $id_cliente; ?>&idc=<?php echo $_GET['id']; ?>'
     </script>
     <?php
 } else {
     ?>
     <script>
-        window.location.href = '../lista-clientes-update.php?r=erro&id=<?php echo $id_cliente; ?>'
+        window.location.href = '../lista-clientes-update.php?r=erro&id=<?php echo $id_cliente; ?>&idc=<?php echo $_GET['id']; ?>'
     </script>
     <?php
 }

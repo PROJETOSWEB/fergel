@@ -133,7 +133,72 @@
                                 </a>
                             </div>
                             <!-- // SITE LOGO -->
-                            <!-- SITE NAVIGATION MENU -->                            <nav id="site-menu" role="navigation">                            	<ul class="main-menu hidden-sm hidden-xs">                                                            		<li class="active">                            			<a href="index.html">Home</a>                            		</li>                                                                		<li>                            			<a href="fergel.html">fergel •</a>                                        			<ul class="dropdown">                            							<li><a href="fergel-missao.html">Missão • Visão</a></li>                            							<li><a href="fergel-certificacoes.html">Certificações</a></li>                            							<li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>                            						</ul>                            		</li>                                                                		<li><a href="produtos-categorias.html">produtos</a></li>                                                                                                    		<li>                            			<a href="#">engenharia •</a>                                        			<ul class="dropdown">                            							<li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>                            							<li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>                            							<li><a href="engenharia-estruturas.html">Estruturas de Construção</a></li>                            							<li><a href="engenharia-coberturas.html">Coberturas</a></li>                            							<li><a href="engenharia-executadas.html">Obras Executadas</a></li>                                                    	<li><a href="engenharia-maoobra.html">Mão-de-obra</a></li>                            						</ul>                            		</li>                                                                		<li>                            			<a href="contatos.php">Contatos •</a>                                        			<ul class="dropdown">                            							<li><a href="trabalhe-conosco.php">Trabalhe conosco</a></li>                            						</ul>                            		</li>                                                                	                            	</ul>                            	                            	<!-- MOBILE MENU -->                            	<div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">                            		<button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>                            		<ul class="dl-menu">                            			<li class="active">                            			<a href="index.html">home</a>                            		</li>                            		<li>                            			<a href="fergel.html">fergel</a>                            		</li>                            		<li>                            			<a href="produtos-categorias.html">produtos</a></li>                            		<li>                            			<a href="engenharia-sistemas.html">engenharia</a>                            		</li>                            		<li>                            			<a href="contatos.php">Contatos</a>                            		</li>                            		</ul>                            	</div>                            	<!-- // MOBILE MENU -->                            	                            </nav>                            <!-- // SITE NAVIGATION MENU -->
+                            <!-- SITE NAVIGATION MENU -->
+                            <nav id="site-menu" role="navigation">
+                                <ul class="main-menu hidden-sm hidden-xs">
+
+                                    <li class="active">
+                                        <a href="index.html">Home</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="fergel.html">fergel •</a>
+                                        <ul class="dropdown">
+                                            <li><a href="fergel-missao.html">Missão • Visão</a></li>
+                                            <li><a href="fergel-certificacoes.html">Certificações</a></li>
+                                            <li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="produtos-categorias.html">produtos</a></li>
+
+
+                                    <li>
+                                        <a href="#">engenharia •</a>
+                                        <ul class="dropdown">
+                                            <li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>
+                                            <li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>
+                                            <li><a href="engenharia-estruturas.html">Estruturas de Construção</a></li>
+                                            <li><a href="engenharia-coberturas.html">Coberturas</a></li>
+                                            <li><a href="engenharia-executadas.html">Obras Executadas</a></li>
+                                            <li><a href="engenharia-maoobra.html">Mão-de-obra</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="contatos.php">Contatos •</a>
+                                        <ul class="dropdown">
+                                            <li><a href="trabalhe-conosco.php">Trabalhe conosco</a></li>
+                                        </ul>
+                                    </li>
+
+
+                                </ul>
+
+                                <!-- MOBILE MENU -->
+                                <div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">
+                                    <button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>
+                                    <ul class="dl-menu">
+                                        <li class="active">
+                                            <a href="index.html">home</a>
+                                        </li>
+                                        <li>
+                                            <a href="fergel.html">fergel</a>
+                                        </li>
+                                        <li>
+                                            <a href="produtos-categorias.html">produtos</a></li>
+                                        <li>
+                                            <a href="engenharia-sistemas.html">engenharia</a>
+                                        </li>
+                                        <li>
+                                            <a href="contatos.php">Contatos</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- // MOBILE MENU -->
+
+                            </nav>
+                            <!-- // SITE NAVIGATION MENU -->
                         </div>
                     </div>
                 </div>
@@ -165,9 +230,9 @@
                                 <nav class="nav-side side-section">
                                     <ul class="nav nav-tabs nav-stacked">
                                         <li><strong>MENU ADIMINISTRATIVO</strong></li>
-                                        <li><a href="add-cliente.php">Adicionar cliente</a></li>
-                                        <li><a href="lista-clientes.php">Lista de clientes</a></li>
-                                        <li><a href="add-dados.php">Incluir dados</a></li>
+                                        <li><a href="add-cliente.php?id=<?php echo $_GET['idc']; ?>">Adicionar cliente</a></li>
+                                        <li><a href="lista-clientes.php?id=<?php echo $_GET['idc']; ?>">Lista de clientes</a></li>
+                                        <li><a href="add-dados.php?id=<?php echo $_GET['idc']; ?>">Incluir dados</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -191,15 +256,27 @@
                                 }
                                 ?>
 
+                                <?php
+                                $idobra = $_GET['id'];
+                                $id_cliente = $_GET['idc'];
 
-                                <form method="POST" action="php/edit_obra.php?id=<?php echo $_GET['id']; ?>" enctype="multipart/form-data">
+                                $sql_obra = "SELECT *, obra.id_clientes as obc FROM obra INNER JOIN clientes "
+                                        . "ON obra.id_clientes = clientes.id_clientes WHERE id_obra = $idobra";
+
+                                $executa_sql_obra = mysql_query($sql_obra)or die(mysql_error());
+                                $row_obra_edit = mysql_fetch_array($executa_sql_obra);
+                                ?>
+
+
+
+                                <form method="POST" action="php/edit_obra.php?id=<?php echo $_GET['id']; ?>&cliente=<?php echo $_GET['cliente']; ?>&idc=<?php echo $_GET['idc']; ?>" enctype="multipart/form-data">
 
                                     <div class="panel panel-default">
 
                                         <div class="panel-heading">
                                             <h4 class="panel-title">
                                                 <a data-toggle="collapse" data-parent="#checkout-collapse" href="#checkout-collapse1">
-                                                     <strong style="color: #BE1E2D;">1º PASSO: </strong>ALTERACAO DE OBRA DE: <?php echo $linha_clientes['razao_social']; ?>
+                                                    <strong style="color: #BE1E2D;">1º PASSO: </strong>ALTERACAO DE OBRA DE: <strong style="color: #BE1E2D;"><?php echo $row_obra_edit['razao_social']; ?></strong>
                                                 </a>
                                             </h4>
                                         </div>
@@ -216,22 +293,15 @@
 
                                                                 <div class="form-group stylish-input">
                                                                     <div class="col-sm-8 col-lg-8" style="padding-left:1px;">
-                                                                        <?php
-                                                                        $idobra = $_GET['id'];
-                                                                        $sql_obra = "SELECT *, obra.id_clientes as obc FROM obra INNER JOIN clientes "
-                                                                                . "ON obra.id_clientes = clientes.id_clientes WHERE id_obra = $idobra";
-                                                                        $executa_sql_obra = mysql_query($sql_obra)or die(mysql_error());
-                                                                        $row_obra_edit = mysql_fetch_array($executa_sql_obra);
-
-
-                                                                        $sql_seleciona_clientes = "SELECT * FROM clientes";
-                                                                        $executa_sql_seleciona = mysql_query($sql_seleciona_clientes)or die(mysql_error());
-                                                                        ?>
+<?php
+$sql_seleciona_clientes = "SELECT * FROM clientes WHERE status = 2 AND id_clientes_cadastro = $id_cliente";
+$executa_sql_seleciona = mysql_query($sql_seleciona_clientes)or die(mysql_error());
+?>
                                                                         <select required="required" name="cliente" class="form-control" id="inputState">
                                                                             <option value="<?php echo $row_obra_edit['obc']; ?>"><?php echo $row_obra_edit['razao_social'] ?></option>
                                                                             <option value="">SELECIONE O CLIENTE</option>
-                                                                            <?php while ($linha_clientes_add = mysql_fetch_array($executa_sql_seleciona)) {
-                                                                                ?>
+                                                                        <?php while ($linha_clientes_add = mysql_fetch_array($executa_sql_seleciona)) {
+                                                                            ?>
                                                                                 <option value="<?php echo $linha_clientes_add['id_clientes']; ?>"><?php echo $linha_clientes_add['razao_social']; ?></option>
                                                                             <?php }
                                                                             ?>
@@ -243,8 +313,8 @@
 
                                                                 <div class="form-account">
                                                                     <p style="font-weight:600;">Situa&ccedil;&atilde;o da obra</p>
-                                                                    <?php if ($row_obra_edit['situacao'] == 1) {
-                                                                        ?>
+<?php if ($row_obra_edit['situacao'] == 1) {
+    ?>
                                                                         <div class="radio">
                                                                             <input name="situacao" value="1" type="radio" name="customer" id="radio-register" class="prettyCheckable" checked="checked" data-label="em andamento"/>
                                                                         </div>
@@ -252,9 +322,9 @@
                                                                         <div class="radio">
                                                                             <input name="situacao" value="2" type="radio" name="customer" id="radio-guest" class="prettyCheckable" data-label="concluída" />
                                                                         </div>
-                                                                        <?php
-                                                                    } else if ($row_obra_edit['situacao'] == 2) {
-                                                                        ?>
+    <?php
+} else if ($row_obra_edit['situacao'] == 2) {
+    ?>
                                                                         <div class="radio">
                                                                             <input name="situacao" value="1" type="radio" name="customer" id="radio-register" class="prettyCheckable"  data-label="em andamento"/>
                                                                         </div>
@@ -262,9 +332,9 @@
                                                                         <div class="radio">
                                                                             <input name="situacao" value="2" type="radio" name="customer" id="radio-guest" class="prettyCheckable" checked="checked" data-label="conclu�da" />
                                                                         </div>
-                                                                        <?php
-                                                                    }
-                                                                    ?>
+    <?php
+}
+?>
                                                                 </div> <!-- // form-accont -->
 
                                                                 <!-- espaco --><div class="space20 clearfix"></div><!-- espaco -->
@@ -406,11 +476,11 @@
                                                         <hr/>
                                                     </div>
 
-                                                    <?php
-                                                    $obrasf = $_GET['id'];
-                                                    $select_fotos_obra = "SELECT * FROM fotos WHERE id_obra = $obrasf";
-                                                    $executa_fotos_obra = mysql_query($select_fotos_obra)or die(mysql_error());
-                                                    ?>
+<?php
+$obrasf = $_GET['id'];
+$select_fotos_obra = "SELECT * FROM fotos WHERE id_obra = $obrasf";
+$executa_fotos_obra = mysql_query($select_fotos_obra)or die(mysql_error());
+?>
 
                                                     <?php
                                                     while ($row_fotoso = mysql_fetch_array($executa_fotos_obra)) {
@@ -433,14 +503,14 @@
                                                                 </div>
                                                                 <div class="entry-main">
                                                                     <h5 class="entry-title">
-                                                                        <?php echo $row_fotoso['nome']; ?>
+    <?php echo $row_fotoso['nome']; ?>
                                                                     </h5>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <!-- FIM foto -->
 
-                                                    <?php } ?>
+<?php } ?>
 
                                                 </section>
                                                 <!-- // PRODUCT LAYOUT -->          
@@ -481,27 +551,27 @@
 
                                                     <p> Clique no nome do arquivo para fazer o download</p>
 
-                                                    <?php
-                                                    $sql_arquivos = "SELECT * FROM arquivos WHERE id_obra = $obrasf";
-                                                    $executa_sql_arquivos = mysql_query($sql_arquivos)or die(mysql_error());
+<?php
+$sql_arquivos = "SELECT * FROM arquivos WHERE id_obra = $obrasf";
+$executa_sql_arquivos = mysql_query($sql_arquivos)or die(mysql_error());
 
-                                                    while ($row_arquivos = mysql_fetch_array($executa_sql_arquivos)) {
-                                                        ?>
+while ($row_arquivos = mysql_fetch_array($executa_sql_arquivos)) {
+    ?>
                                                         <!-- ARQUIVO -->
                                                         <div class="products-layout">
                                                             <div class="product" style="max-width:247px;">
                                                                 <div class="entry-main">
                                                                     <h5 class="entry-title">
                                                                         <a href="php/fotos/<?php echo $row_arquivos['arquivo']; ?>" style="font-size:12px; font-weight:600;"><?php echo $row_arquivos['nome']; ?></a>
-                                                                        <hr/><a style="font-size:9px;"href="php/excluir_arquivo.php?arquivo=<?php echo $row_arquivos['id_arquivos']; ?>&idobra=<?php echo $_GET['id']?>"><img style="margin-right:5px;"src="img/ico-delete.png" width="15">excuir</a>
+                                                                        <hr/><a style="font-size:9px;"href="php/excluir_arquivo.php?arquivo=<?php echo $row_arquivos['id_arquivos']; ?>&idobra=<?php echo $_GET['id'] ?>"><img style="margin-right:5px;"src="img/ico-delete.png" width="15">excuir</a>
                                                                     </h5>
                                                                 </div>
                                                             </div>
                                                         </div>
 
-                                                        <?php
-                                                    }
-                                                    ?>
+    <?php
+}
+?>
 
 
                                                     <!-- FIM ARQUIVO -->

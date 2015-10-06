@@ -242,9 +242,9 @@ include './conections/config.php';
 
                                         <li><strong></strong></li>
                                         <li><strong>MENU ADIMINISTRATIVO</strong></li>
-                                        <li><a href="add-cliente.php">Adicionar cliente</a></li>
-                                        <li><a href="lista-clientes.php">Lista de clientes</a></li>
-                                        <li><a href="add-dados.php">Incluir dados</a></li>
+                                        <li><a href="add-cliente.php?id=<?php echo $_GET['idc']; ?>">Adicionar cliente</a></li>
+                                        <li><a href="lista-clientes.php?id=<?php echo $_GET['idc']; ?>">Lista de clientes</a></li>
+                                        <li><a href="add-dados.php?id=<?php echo $_GET['idc']; ?>">Incluir dados</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -278,8 +278,8 @@ include './conections/config.php';
 
                                                         <tr class="tabela">
                                                             <td><a style="margin-right: 35px;" href="obra-cliente.php?cliente=<?php echo $idc; ?>&id=<?php echo $row['id_obra']; ?>"><?php echo $row['obra']; ?></a></td>
-                                                            <td><a href="edit-obra.php?id=<?php echo $row['id_obra'] ?>"><img width="20" height="20" src="img/ico-editar.png" title="Alterar"></a></td>
-                                                            <td><a href="php/deletar_obra.php?id=<?php echo $row['id_obra']; ?>&idc=<?php echo $row['id_clientes']; ?>"><img width="20" height="20" src="img/ico-delete.png" title="Excluir"></a></td>
+                                                            <td><a href="edit-obra.php?cliente=<?php echo $_GET['id']; ?>&idc=<?php echo $_GET['idc']; ?>&id=<?php echo $row['id_obra'] ?>"><img width="20" height="20" src="img/ico-editar.png" title="Alterar"></a></td>
+                                                            <td><a href="php/deletar_obra.php?id=<?php echo $row['id_obra']; ?>&idc=<?php echo $row['id_clientes']; ?>&idcliente=<?php echo $_GET['idc'] ?>"><img width="20" height="20" src="img/ico-delete.png" title="Excluir"></a></td>
 
                                                         </tr>
     <?php

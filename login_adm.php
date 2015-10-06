@@ -16,8 +16,8 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/apple-touch-icon-72x72-precomposed.html">
         <link rel="apple-touch-icon-precomposed" href="img/favicon/apple-touch-icon-precomposed.html">
         <!-- // Favorite Icons -->
-		
-		<link href='http://fonts.googleapis.com/css?family=Raleway:100,300,600,900' rel='stylesheet' type='text/css'>
+
+        <link href='http://fonts.googleapis.com/css?family=Raleway:100,300,600,900' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
 
         <!-- GENERAL CSS FILES -->
@@ -45,161 +45,161 @@
         <div id="page-wrapper">
 
             <!-- SITE HEADER -->
-	<header id="site-header" role="banner">
-		<!-- HEADER TOP -->
-		<div class="header-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-6 col-md-7">
-						<!-- CONTACT INFO -->
-						<div class="contact-info">
-							<i class="iconfont-headphones round-icon"></i>
-							<strong>+55 92 3615.1000</strong>
-							<span>Av. Buriti, 5800 &bull; Distrito &bull; Manaus &bull; Amazonas &bull; Brasil</span>
-					  </div>
-						<!-- // CONTACT INFO -->
-					</div>
-                   
-                    
-			  <div class="col-xs-12 col-sm-6 col-md-2">
-						<ul class="actions unstyled clearfix">
-							
-							
-							<li data-toggle="sub-header" data-target="#sub-cart" style="float:rigth;">
-								<!-- SHOPPING CART -->
-								<a href="javascript:void(0);" id="total-cart">
-									<i class="iconfont-shopping-cart round-icon"></i>
-								</a>
-								
-								<div id="sub-cart" class="sub-header">
-									<div class="cart-header">
-										<span style="color:#000;">Você não tem itens no seu orçamento.</span>
-										<small><a href="orcamento.html">• ver tudo •</a></small>
-									</div>
-									<ul class="cart-items product-medialist unstyled clearfix"></ul>
-									<div class="cart-footer">
-										<div class="text-right">
-											<a href="orcamento.html" class="btn btn-default btn-round view-cart">ver orçamento</a>
-										</div>
-									</div>
-								</div>
-								<!-- // SHOPPING CART -->
-							</li>
-                            <li data-toggle="sub-header" data-target="#sub-social">
-								<!-- SOCIAL ICONS 
-								<a href="javascript:void(0);" id="social-icons">
-									<i class="iconfont-share round-icon"></i>
-								</a>
-								
-								<div id="sub-social" class="sub-header">
-									<ul class="social-list unstyled text-center">
-										<li><a href="#"><i class="iconfont-facebook round-icon"></i></a></li>
-										<li><a href="#"><i class="iconfont-twitter round-icon"></i></a></li>
-										<li><a href="#"><i class="iconfont-google-plus round-icon"></i></a></li>
-										<li><a href="#"><i class="iconfont-pinterest round-icon"></i></a></li>
-										<li><a href="#"><i class="iconfont-rss round-icon"></i></a></li>
-									</ul>
-								</div>
-								<!-- // SOCIAL ICONS -->
-							</li>
-						</ul>
-				  </div>
-                    
-                    <a href="login_adm.php"><button type="button" class="btn btn-danger"><img src="img/ico-login.png" style="margin-top:-3px; margin-right:5px;">ADM</button></a>
-                   
-							<a href="login_cliente.php"><button type="button" class="btn btn-warning"><img src="img/ico-login.png" style="margin-top:-3px; margin-right:5px;">acompanhe sua obra</button></a>
-                    
-                    
-				</div>
-			</div>
-			
-			<!-- ADD TO CART MESSAGE -->
-			<div class="cart-notification">
-				<ul class="unstyled"></ul>
-			</div>
-			<!-- // ADD TO CART MESSAGE -->
-		</div>
-		<!-- // HEADER TOP -->
-		<!-- MAIN HEADER -->
-		<div class="main-header-wrapper">
-			<div class="container">
-				<div class="main-header">
-					
-					<!-- SITE LOGO -->
-					<div class="logo-wrapper">
-						<a href="index.html" class="logo" title="Fergel">
-							<img src="img/logo-fergel.png" alt="Fergel" />
-						</a>
-					</div>
-					<!-- // SITE LOGO -->
-					<!-- SITE NAVIGATION MENU -->
-					<nav id="site-menu" role="navigation">
-						<ul class="main-menu hidden-sm hidden-xs">
-                        
-							<li>
-								<a href="index.html">Home</a>
-							</li>
-                            
-							<li>
-								<a href="fergel.html">fergel</a>
-                                			<ul class="dropdown">
-												<li><a href="fergel-missao.html">Missão • Visão</a></li>
-												<li><a href="fergel-certificacoes.html">Certificações</a></li>
-												<li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>
-											</ul>
-							</li>
-                            
-							<li><a href="produtos-categorias.html">produtos</a></li>
-                            
-                            
-							<li>
-								<a href="#">engenharia</a>
-                                			<ul class="dropdown">
-												<li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>
-												<li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>
-												<li><a href="engenharia-estruturas.html">Estruturas de Construção</a></li>
-												<li><a href="engenharia-coberturas.html">Coberturas</a></li>
-												<li><a href="engenharia-executadas.html">Obras Executadas</a></li>
-                                            	<li><a href="engenharia-maoobra.html">Mão-de-obra</a></li>
-											</ul>
-							</li>
-                            
-							<li>
-								<a href="contatos.html">Contatos</a>
-							</li>
-                            
-						</ul>
-						
-						<!-- MOBILE MENU -->
-						<div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">
-							<button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>
-							<ul class="dl-menu">
-								<li class="active">
-								<a href="index.html">home</a>
-							</li>
-							<li>
-								<a href="fergel.html">fergel</a>
-							</li>
-							<li>
-								<a href="produtos-categorias.html">produtos</a></li>
-							<li>
-								<a href="engenharia-sistemas.html">engenharia</a>
-							</li>
-							<li>
-								<a href="contatos.html">Contatos</a>
-							</li>
-							</ul>
-						</div>
-						<!-- // MOBILE MENU -->
+            <header id="site-header" role="banner">
+                <!-- HEADER TOP -->
+                <div class="header-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-7">
+                                <!-- CONTACT INFO -->
+                                <div class="contact-info">
+                                    <i class="iconfont-headphones round-icon"></i>
+                                    <strong>+55 92 3615.1000</strong>
+                                    <span>Av. Buriti, 5800 &bull; Distrito &bull; Manaus &bull; Amazonas &bull; Brasil</span>
+                                </div>
+                                <!-- // CONTACT INFO -->
+                            </div>
 
-					</nav>
-					<!-- // SITE NAVIGATION MENU -->
-				</div>
-			</div>
-		</div>
-		<!-- // MAIN HEADER -->
-	</header>
-	<!-- // SITE HEADER -->
+
+                            <div class="col-xs-12 col-sm-6 col-md-2">
+                                <ul class="actions unstyled clearfix">
+
+
+                                    <li data-toggle="sub-header" data-target="#sub-cart" style="float:rigth;">
+                                        <!-- SHOPPING CART -->
+                                        <a href="javascript:void(0);" id="total-cart">
+                                            <i class="iconfont-shopping-cart round-icon"></i>
+                                        </a>
+
+                                        <div id="sub-cart" class="sub-header">
+                                            <div class="cart-header">
+                                                <span style="color:#000;">Vocï¿½ nï¿½o tem itens no seu orï¿½amento.</span>
+                                                <small><a href="orcamento.html">ï¿½ ver tudo ï¿½</a></small>
+                                            </div>
+                                            <ul class="cart-items product-medialist unstyled clearfix"></ul>
+                                            <div class="cart-footer">
+                                                <div class="text-right">
+                                                    <a href="orcamento.html" class="btn btn-default btn-round view-cart">ver orï¿½amento</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- // SHOPPING CART -->
+                                    </li>
+                                    <li data-toggle="sub-header" data-target="#sub-social">
+                                        <!-- SOCIAL ICONS 
+                                        <a href="javascript:void(0);" id="social-icons">
+                                                <i class="iconfont-share round-icon"></i>
+                                        </a>
+                                        
+                                        <div id="sub-social" class="sub-header">
+                                                <ul class="social-list unstyled text-center">
+                                                        <li><a href="#"><i class="iconfont-facebook round-icon"></i></a></li>
+                                                        <li><a href="#"><i class="iconfont-twitter round-icon"></i></a></li>
+                                                        <li><a href="#"><i class="iconfont-google-plus round-icon"></i></a></li>
+                                                        <li><a href="#"><i class="iconfont-pinterest round-icon"></i></a></li>
+                                                        <li><a href="#"><i class="iconfont-rss round-icon"></i></a></li>
+                                                </ul>
+                                        </div>
+                                        <!-- // SOCIAL ICONS -->
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <a href="login_adm.php"><button type="button" class="btn btn-danger"><img src="img/ico-login.png" style="margin-top:-3px; margin-right:5px;">ADM</button></a>
+
+                            <a href="login_cliente.php"><button type="button" class="btn btn-warning"><img src="img/ico-login.png" style="margin-top:-3px; margin-right:5px;">acompanhe sua obra</button></a>
+
+
+                        </div>
+                    </div>
+
+                    <!-- ADD TO CART MESSAGE -->
+                    <div class="cart-notification">
+                        <ul class="unstyled"></ul>
+                    </div>
+                    <!-- // ADD TO CART MESSAGE -->
+                </div>
+                <!-- // HEADER TOP -->
+                <!-- MAIN HEADER -->
+                <div class="main-header-wrapper">
+                    <div class="container">
+                        <div class="main-header">
+
+                            <!-- SITE LOGO -->
+                            <div class="logo-wrapper">
+                                <a href="index.html" class="logo" title="Fergel">
+                                    <img src="img/logo-fergel.png" alt="Fergel" />
+                                </a>
+                            </div>
+                            <!-- // SITE LOGO -->
+                            <!-- SITE NAVIGATION MENU -->
+                            <nav id="site-menu" role="navigation">
+                                <ul class="main-menu hidden-sm hidden-xs">
+
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="fergel.html">fergel</a>
+                                        <ul class="dropdown">
+                                            <li><a href="fergel-missao.html">Missï¿½o ï¿½ Visï¿½o</a></li>
+                                            <li><a href="fergel-certificacoes.html">Certificaï¿½ï¿½es</a></li>
+                                            <li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="produtos-categorias.html">produtos</a></li>
+
+
+                                    <li>
+                                        <a href="#">engenharia</a>
+                                        <ul class="dropdown">
+                                            <li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>
+                                            <li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>
+                                            <li><a href="engenharia-estruturas.html">Estruturas de Construï¿½ï¿½o</a></li>
+                                            <li><a href="engenharia-coberturas.html">Coberturas</a></li>
+                                            <li><a href="engenharia-executadas.html">Obras Executadas</a></li>
+                                            <li><a href="engenharia-maoobra.html">Mï¿½o-de-obra</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="contatos.html">Contatos</a>
+                                    </li>
+
+                                </ul>
+
+                                <!-- MOBILE MENU -->
+                                <div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">
+                                    <button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>
+                                    <ul class="dl-menu">
+                                        <li class="active">
+                                            <a href="index.html">home</a>
+                                        </li>
+                                        <li>
+                                            <a href="fergel.html">fergel</a>
+                                        </li>
+                                        <li>
+                                            <a href="produtos-categorias.html">produtos</a></li>
+                                        <li>
+                                            <a href="engenharia-sistemas.html">engenharia</a>
+                                        </li>
+                                        <li>
+                                            <a href="contatos.html">Contatos</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- // MOBILE MENU -->
+
+                            </nav>
+                            <!-- // SITE NAVIGATION MENU -->
+                        </div>
+                    </div>
+                </div>
+                <!-- // MAIN HEADER -->
+            </header>
+            <!-- // SITE HEADER -->
 
             <!-- BREADCRUMB -->
             <div class="breadcrumb-container">
@@ -221,8 +221,8 @@
 
                         <section class="col-xs-12 col-sm-8 col-md-12">
                             <div class="panel-group checkout" id="checkout-collapse">
-                            
-                            <h1> acesso administrativo </h1>
+
+                                <h1> acesso administrativo </h1>
 
                                 <div class="panel panel-default">
 
@@ -270,7 +270,7 @@
             <!-- // SITE MAIN CONTENT -->
 
 
-   <!-- SITE FOOTER -->
+            <!-- SITE FOOTER -->
             <footer class="page-footer">
 
 

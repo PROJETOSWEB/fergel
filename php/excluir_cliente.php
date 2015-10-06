@@ -24,7 +24,7 @@ if ($row_qtd['qtd'] >= 1) {
     if ($executa_sql_delete) {
         ?>
         <script>
-            window.location.href = '../lista-clientes.php?rd=certo'
+            window.location.href = '../lista-clientes.php?rd=certo&id=<?php echo $_GET['idc']; ?>'
         </script>
         <?php
 
