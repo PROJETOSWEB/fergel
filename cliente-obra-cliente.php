@@ -145,7 +145,72 @@
 								</a>
 							</div>
 							<!-- // SITE LOGO -->
-							<!-- SITE NAVIGATION MENU -->							<nav id="site-menu" role="navigation">								<ul class="main-menu hidden-sm hidden-xs">																	<li class="active">										<a href="index.html">Home</a>									</li>																		<li>										<a href="fergel.html">fergel •</a>													<ul class="dropdown">														<li><a href="fergel-missao.html">Missão • Visão</a></li>														<li><a href="fergel-certificacoes.html">Certificações</a></li>														<li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>													</ul>									</li>																		<li><a href="produtos-categorias.html">produtos</a></li>																											<li>										<a href="#">engenharia •</a>													<ul class="dropdown">														<li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>														<li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>														<li><a href="engenharia-estruturas.html">Estruturas de Construção</a></li>														<li><a href="engenharia-coberturas.html">Coberturas</a></li>														<li><a href="engenharia-executadas.html">Obras Executadas</a></li>														<li><a href="engenharia-maoobra.html">Mão-de-obra</a></li>													</ul>									</li>																		<li>										<a href="contatos.php">Contatos •</a>													<ul class="dropdown">														<li><a href="trabalhe-conosco.php">Trabalhe conosco</a></li>													</ul>									</li>																									</ul>																<!-- MOBILE MENU -->								<div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">									<button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>									<ul class="dl-menu">										<li class="active">										<a href="index.html">home</a>									</li>									<li>										<a href="fergel.html">fergel</a>									</li>									<li>										<a href="produtos-categorias.html">produtos</a></li>									<li>										<a href="engenharia-sistemas.html">engenharia</a>									</li>									<li>										<a href="contatos.php">Contatos</a>									</li>									</ul>								</div>								<!-- // MOBILE MENU -->															</nav>							<!-- // SITE NAVIGATION MENU -->
+							<!-- SITE NAVIGATION MENU -->
+							<nav id="site-menu" role="navigation">
+								<ul class="main-menu hidden-sm hidden-xs">
+								
+									<li class="active">
+										<a href="index.html">Home</a>
+									</li>
+									
+									<li>
+										<a href="fergel.html">fergel •</a>
+													<ul class="dropdown">
+														<li><a href="fergel-missao.html">Missão • Visão</a></li>
+														<li><a href="fergel-certificacoes.html">Certificações</a></li>
+														<li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>
+													</ul>
+									</li>
+									
+									<li><a href="produtos-categorias.html">produtos</a></li>
+									
+									
+									<li>
+										<a href="#">engenharia •</a>
+													<ul class="dropdown">
+														<li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>
+														<li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>
+														<li><a href="engenharia-estruturas.html">Estruturas de Construção</a></li>
+														<li><a href="engenharia-coberturas.html">Coberturas</a></li>
+														<li><a href="engenharia-executadas.html">Obras Executadas</a></li>
+														<li><a href="engenharia-maoobra.html">Mão-de-obra</a></li>
+													</ul>
+									</li>
+									
+									<li>
+										<a href="contatos.php">Contatos •</a>
+													<ul class="dropdown">
+														<li><a href="trabalhe-conosco.php">Trabalhe conosco</a></li>
+													</ul>
+									</li>
+									
+								
+								</ul>
+								
+								<!-- MOBILE MENU -->
+								<div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">
+									<button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>
+									<ul class="dl-menu">
+										<li class="active">
+										<a href="index.html">home</a>
+									</li>
+									<li>
+										<a href="fergel.html">fergel</a>
+									</li>
+									<li>
+										<a href="produtos-categorias.html">produtos</a></li>
+									<li>
+										<a href="engenharia-sistemas.html">engenharia</a>
+									</li>
+									<li>
+										<a href="contatos.php">Contatos</a>
+									</li>
+									</ul>
+								</div>
+								<!-- // MOBILE MENU -->
+								
+							</nav>
+							<!-- // SITE NAVIGATION MENU -->
 						</div>
 					</div>
 				</div>
@@ -180,7 +245,7 @@
 								<nav class="nav-side side-section">
 									<ul class="nav nav-tabs nav-stacked">
 										<li><strong>MENU ADIMINISTRATIVO</strong></li>
-										<li><a href="cliente-lista-obras.php">Lista de obras</a></li>
+										<li><a href="cliente-lista-obras.php?id=<?php echo $_GET['id']; ?>&cliente=<?php echo $_GET['cliente']; ?>">Lista de obras</a></li>
 									</ul>
 								</nav>
 							</div>
@@ -195,7 +260,8 @@
 									<div class="panel-heading">
 										<div class="panel-title" style="height: 30px;">
 											<a data-toggle="collapse" data-parent="#checkout-collapse" href="#checkout-collapse1">
-											   <h4 style="float: left;"> INFORMAÇÕES SOBRE A OBRA DE: </h4> 											   <h4 style="color:#C00; float: left; font-family: Raleway;">  <?php echo $decodificar_cliente; ?></h4>
+											   <h4 style="float: left;"> INFORMAÇÕES SOBRE A OBRA DE: </h4> 
+											   <h4 style="color:#C00; float: left; font-family: Raleway;">  <?php echo $decodificar_cliente; ?></h4>
 											</a>
 										</div>
 									</div>
@@ -212,7 +278,8 @@
 												$row_obra = mysql_fetch_array($executa_sql_seleciona_obra);
 												?>
 
-												<div class="col-xs-12 col-sm-6">												
+												<div class="col-xs-12 col-sm-6">
+												
 														<div class="form-group stylish-input">
 															<div class="col-sm-8 col-lg-12" style="padding-left:1px;">
 																<h50>nome da obra</h50> 
@@ -234,7 +301,8 @@
 														<div class="form-group stylish-input">
 															<div class="col-sm-8 col-lg-8" style="padding-left:1px;">
 																<h50>situação da obra</h50> 
-																<div class="btn btn-warning">																	<?php
+																<div class="btn btn-warning">
+																	<?php
 																	if ($row_obra['situacao'] == 1) {
 																		echo "em andamento!";
 																	} else if ($row_obra['situacao'] == 2) {
@@ -244,7 +312,8 @@
 																	?>
 																</div>
 															</div>
-														</div> 														
+														</div> 
+														
 												</div> <!-- // col-xs-12 col-sm-6 -->
 
 
@@ -261,7 +330,8 @@
 
 														<div class="form-group stylish-input">
 															<div class="col-sm-8 col-lg-8" style="padding-left:1px;">
-																<h50>Responsável</h50>																<p><?php echo $row_obra['responsavel']; ?></p>
+																<h50>Responsável</h50>
+																<p><?php echo $row_obra['responsavel']; ?></p>
 															</div>
 														</div>
 
@@ -432,7 +502,10 @@
 
 							</div> <!-- // "panel-group checkout" id="checkout-collapse" -->
 					  
-				  </section><!--// "col-xs-12 col-sm-8 col-md-9" -->				  </div>				  </div>
+
+				  </section><!--// "col-xs-12 col-sm-8 col-md-9" -->
+				  </div>
+				  </div>
 			</main>
 			<!-- // SITE MAIN CONTENT -->
 
