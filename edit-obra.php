@@ -5,7 +5,7 @@
 <!--[if IE 9]><html class="ie ie9 lte9" lang="en-US"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--><html class="noIE" lang="en-US"><!--<![endif]-->
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <meta charset="UTF-8">
         <title>FERGEL :: Altera&ccedil;&atilde;o de obra</title>
         <meta name="description" content=""/>
         <meta name="keywords" content=""/>

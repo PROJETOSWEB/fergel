@@ -8,7 +8,7 @@ if ($status) {
     $conexao = mysql_connect("localhost", "root", "") or die("Erro na conexao!");
     $db = mysql_select_db("fergel", $conexao) or die("Erro ao selecionar banco de dados!");
 } else {
-    $conexao = mysql_connect('mysql.fergel.com.br', 'fergel', 'db1x7akdb') or die(mysql_error());
+    $conexao = mysql_connect('mysql01-farm58.kinghost.net', 'fergel', 'db1x7akdb') or die(mysql_error());
     $db = mysql_select_db('fergel', $conexao);
 }
 

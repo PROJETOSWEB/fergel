@@ -6,7 +6,7 @@
 <!--[if (gt IE 9)|!(IE)]><!--><html class="noIE" lang="en-US"><!--<![endif]-->
     <head>
 
-        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <meta charset="UTF-8">
         <title>FERGEL :: ADICIONAR CLIENTES</title>
         <meta name="description" content=""/>
         <meta name="keywords" content=""/>

@@ -8,7 +8,7 @@ include './conections/config.php';
 <!--[if IE 9]><html class="ie ie9 lte9" lang="en-US"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--><html class="noIE" lang="en-US"><!--<![endif]-->
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta charset="UTF-8">
         <title>FERGEL :: OBRA DO CLIENTE</title>
         <meta name="description" content=""/>
         <meta name="keywords" content=""/>

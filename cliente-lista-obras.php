@@ -8,7 +8,7 @@ include './conections/config.php';
 <!--[if IE 9]><html class="ie ie9 lte9" lang="en-US"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--><html class="noIE" lang="en-US"><!--<![endif]-->
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <meta charset="UTF-8">
         <title>FERGEL :: LISTA DE OBRAS</title>
         <meta name="description" content=""/>
         <meta name="keywords" content=""/>
@@ -83,7 +83,7 @@ include './conections/config.php';
 									<ul class="cart-items product-medialist unstyled clearfix"></ul>
 									<div class="cart-footer">
 										<div class="text-right">
-											<a href="orcamento.html" class="btn btn-default btn-round view-cart">ver orçamento</a>
+											<a href="orcamento.html" style="color: #000;" class="btn btn-default btn-round view-cart">ver orçamento</a>
 										</div>
 									</div>
 								</div>
