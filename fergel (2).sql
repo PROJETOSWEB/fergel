@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 05-Out-2015 às 17:35
+-- Generation Time: 15-Out-2015 às 16:14
 -- Versão do servidor: 5.6.15-log
 -- PHP Version: 5.5.8
 
@@ -32,7 +32,14 @@ CREATE TABLE IF NOT EXISTS `arquivos` (
   `arquivo` varchar(45) NOT NULL DEFAULT '',
   `nome` varchar(45) NOT NULL DEFAULT '',
   PRIMARY KEY (`id_arquivos`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+--
+-- Extraindo dados da tabela `arquivos`
+--
+
+INSERT INTO `arquivos` (`id_arquivos`, `id_obra`, `arquivo`, `nome`) VALUES
+(2, 2, 'an_peq-fono.pdf', 'Anuncio • PDF');
 
 -- --------------------------------------------------------
 
@@ -9793,16 +9800,18 @@ CREATE TABLE IF NOT EXISTS `clientes` (
   `status` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '1-ADM 2-CLIENTE',
   `id_estado` int(10) unsigned NOT NULL DEFAULT '0',
   `id_cidade` int(10) unsigned NOT NULL DEFAULT '0',
+  `id_clientes_cadastro` int(11) NOT NULL,
   PRIMARY KEY (`id_clientes`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=8 ;
 
 --
 -- Extraindo dados da tabela `clientes`
 --
 
-INSERT INTO `clientes` (`id_clientes`, `razao_social`, `cnpj`, `email`, `telefone`, `contato`, `endereco`, `bairro`, `cep`, `login`, `senha`, `status`, `id_estado`, `id_cidade`) VALUES
-(1, 'Pollyanna', '11460137000145', 'teste@gmail.com', '92982702518', 'd', 'Rua Djalma Dutra', 'Nossa Senhora das Graças', '6979060', 'pollyanna', 'fergel', 1, 1, 1),
-(6, 'AMAZON TAPE INDUSTRIA E COMÉRCIO DE FITAS ADESIVAS LTDA', '07.430.901/0001-62', 'claudinei@amazontape.com.br', '(092) 3613 4062            ', 'Claudinei', 'AVENIDA MINISTRO M?RIO ANDREAZZA No 880, GALP', 'DISTRITO INDUSTRIAL ', '69075-830', 'amazontape', '07430901', 2, 3, 240);
+INSERT INTO `clientes` (`id_clientes`, `razao_social`, `cnpj`, `email`, `telefone`, `contato`, `endereco`, `bairro`, `cep`, `login`, `senha`, `status`, `id_estado`, `id_cidade`, `id_clientes_cadastro`) VALUES
+(1, 'Pollyanna', '11460137000145', 'teste@gmail.com', '92982702518', 'd', 'Rua Djalma Dutra', 'Nossa Senhora das Graças', '6979060', 'pollyanna', 'fergel', 1, 1, 1, 0),
+(6, 'AMAZON TAPE INDÚTRIA E COMÉRCIO DE FITAS ADESIVAS LTDA', '07.430.901/0001-62', 'claudinei@amazontape.com.br', '(092) 3613 4062            ', 'Claudinei', 'AVENIDA MINISTRO MÁRIO ANDREAZZA No 880, GALP', 'DISTRITO INDUSTRIAL ', '69075-830', 'amazontape', '07430901', 2, 3, 240, 1),
+(7, 'Teste cliente', '000000000000', 'maneschy.com@gmail.com', '3333333', 'Thiago', 'xxxxxx', 'xxxxxxx', '690999', 'clienteteste', '123', 2, 240, 3, 1);
 
 -- --------------------------------------------------------
 
@@ -9865,17 +9874,18 @@ CREATE TABLE IF NOT EXISTS `fotos` (
   `nome` varchar(200) NOT NULL DEFAULT '',
   PRIMARY KEY (`idfotos`),
   KEY `FK_fotos_1` (`id_obra`) USING BTREE
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
 
 --
 -- Extraindo dados da tabela `fotos`
 --
 
 INSERT INTO `fotos` (`idfotos`, `id_obra`, `foto`, `nome`) VALUES
-(1, 2, 'IMG_7689.jpg', 'NOV - 14'),
-(2, 2, 'IMG_7690.jpg', 'NOV - 14'),
-(3, 2, 'IMG_7691.jpg', ''),
-(4, 3, 'IMG_7689.jpg', '');
+(4, 3, 'IMG_7689.jpg', ''),
+(5, 2, 'banner.png', 'obra teste xxx'),
+(6, 2, 'banner2.jpg', 'obra teste xxx'),
+(7, 2, 'banner3.png', 'obra teste xxx'),
+(8, 2, 'banner4.png', 'obra teste xxx');
 
 -- --------------------------------------------------------
 
@@ -9896,14 +9906,15 @@ CREATE TABLE IF NOT EXISTS `obra` (
   `endereco_obra` varchar(200) NOT NULL DEFAULT '',
   PRIMARY KEY (`id_obra`),
   KEY `FK_obra_1` (`id_clientes`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
 --
 -- Extraindo dados da tabela `obra`
 --
 
 INSERT INTO `obra` (`id_obra`, `id_clientes`, `situacao`, `obra`, `responsavel`, `prev_inicio`, `prev_final`, `avisos`, `obs`, `endereco_obra`) VALUES
-(1, 6, 1, 'Galp', 'Eng. Pollyanna', '09/12/2014', '30/10/2015', '', '', 'Rua Aninga, s/n. Distrito Industrial 2');
+(1, 6, 1, 'Galp', 'Eng. Pollyanna', '09/12/2014', '30/10/2015', 'nononono', 'nononono', 'Rua Aninga, s/n. Distrito Industrial 2'),
+(2, 7, 1, 'teste xxx', 'Soares', '25/11/2015', '25/12/2015', 'nonononononon onononono nonono', 'nononononon ononononon ononononon oonono', 'rua buriti, 508');
 
 --
 -- Constraints for dumped tables

@@ -239,9 +239,9 @@ include './conections/config.php';
                                 <nav class="nav-side side-section">
                                     <ul class="nav nav-tabs nav-stacked">
                                         <li><strong>MENU ADIMINISTRATIVO</strong></li>
-                                        <li><a href="add-cliente.php">Adicionar cliente</a></li>
-                                        <li><a href="lista-clientes.php">Lista de clientes</a></li>
-                                        <li><a href="add-dados.php">Incluir dados</a></li>
+                                        <li><a href="add-cliente.php?id=<?php echo $_GET['id'];?>">Adicionar cliente</a></li>
+                                        <li><a href="lista-clientes.php?id=<?php echo $_GET['id']; ?>">Lista de clientes</a></li>
+                                        <li><a href="add-dados.php?id=<?php echo $_GET['id']; ?>">Incluir dados</a></li>
                                     </ul>
                                 </nav>
                             </div>
