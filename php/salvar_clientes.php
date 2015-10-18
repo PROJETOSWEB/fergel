@@ -21,7 +21,7 @@ $id_cliente = $_POST['id_cliente'];
 
 //INSERINDO DADOS NO BANCO
 $sql_insert = "INSERT INTO clientes(razao_social, cnpj, email, telefone, contato, endereco, bairro, cep, login, senha, status, id_estado, id_cidade, id_clientes_cadastro)"
-              ."VALUES('$razaosocial', '$cnpj', '$email', '$telefone', '$contato', '$endereco', '$bairro', '$cep', '$login', '$senha', 2, $cidade, $estado, $id_cliente)";
+              ."VALUES('$razaosocial', '$cnpj', '$email', '$telefone', '$contato', '$endereco', '$bairro', '$cep', '$login', '$senha', 2, $estado, $cidade, $id_cliente)";
 
 
 //EXECUTANDO QUERY

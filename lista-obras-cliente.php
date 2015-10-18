@@ -9,7 +9,7 @@ include './conections/config.php';
 <!--[if (gt IE 9)|!(IE)]><!--><html class="noIE" lang="en-US"><!--<![endif]-->
     <head>
 
-         <meta charset="UTF-8"> 
+        <meta charset="UTF-8"> 
         <title>FERGEL :: LISTA DE OBRAS</title>
         <meta name="description" content=""/>
         <meta name="keywords" content=""/>
@@ -139,68 +139,68 @@ include './conections/config.php';
                             <!-- // SITE LOGO -->
                             <!-- SITE NAVIGATION MENU -->
                             <nav id="site-menu" role="navigation">
-                            	<ul class="main-menu hidden-sm hidden-xs">
-                                
-                            		<li class="active">
-                            			<a href="index.html">Home</a>
-                            		</li>
-                                    
-                            		<li>
-                            			<a href="fergel.html">fergel •</a>
-                                        			<ul class="dropdown">
-                            							<li><a href="fergel-missao.html">Missão • Visão</a></li>
-                            							<li><a href="fergel-certificacoes.html">Certificações</a></li>
-                            							<li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>
-                            						</ul>
-                            		</li>
-                                    
-                            		<li><a href="produtos-categorias.html">produtos</a></li>
-                                    
-                                    
-                            		<li>
-                            			<a href="#">engenharia •</a>
-                                        			<ul class="dropdown">
-                            							<li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>
-                            							<li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>
-                            							<li><a href="engenharia-estruturas.html">Estruturas de Construção</a></li>
-                            							<li><a href="engenharia-coberturas.html">Coberturas</a></li>
-                            							<li><a href="engenharia-executadas.html">Obras Executadas</a></li>
-                                                    	<li><a href="engenharia-maoobra.html">Mão-de-obra</a></li>
-                            						</ul>
-                            		</li>
-                                    
-                            		<li>
-                            			<a href="contatos.php">Contatos •</a>
-                                        			<ul class="dropdown">
-                            							<li><a href="trabalhe-conosco.php">Trabalhe conosco</a></li>
-                            						</ul>
-                            		</li>
-                                    
-                            	
-                            	</ul>
-                            	
-                            	<!-- MOBILE MENU -->
-                            	<div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">
-                            		<button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>
-                            		<ul class="dl-menu">
-                            			<li class="active">
-                            			<a href="index.html">home</a>
-                            		</li>
-                            		<li>
-                            			<a href="fergel.html">fergel</a>
-                            		</li>
-                            		<li>
-                            			<a href="produtos-categorias.html">produtos</a></li>
-                            		<li>
-                            			<a href="engenharia-sistemas.html">engenharia</a>
-                            		</li>
-                            		<li>
-                            			<a href="contatos.php">Contatos</a>
-                            		</li>
-                            		</ul>
-                            	</div>
-                            	<!-- // MOBILE MENU -->
-                            	
+                                <ul class="main-menu hidden-sm hidden-xs">
+
+                                    <li class="active">
+                                        <a href="index.html">Home</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="fergel.html">fergel •</a>
+                                        <ul class="dropdown">
+                                            <li><a href="fergel-missao.html">Missão • Visão</a></li>
+                                            <li><a href="fergel-certificacoes.html">Certificações</a></li>
+                                            <li><a href="fergel-estruturas.html">Estrutura Fergel</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="produtos-categorias.html">produtos</a></li>
+
+
+                                    <li>
+                                        <a href="#">engenharia •</a>
+                                        <ul class="dropdown">
+                                            <li><a href="engenharia-sistemas.html">Sistemas Integrados</a></li>
+                                            <li><a href="engenharia-industrializadas.html">Obras Industrializadas</a></li>
+                                            <li><a href="engenharia-estruturas.html">Estruturas de Construção</a></li>
+                                            <li><a href="engenharia-coberturas.html">Coberturas</a></li>
+                                            <li><a href="engenharia-executadas.html">Obras Executadas</a></li>
+                                            <li><a href="engenharia-maoobra.html">Mão-de-obra</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="contatos.php">Contatos •</a>
+                                        <ul class="dropdown">
+                                            <li><a href="trabalhe-conosco.php">Trabalhe conosco</a></li>
+                                        </ul>
+                                    </li>
+
+
+                                </ul>
+
+                                <!-- MOBILE MENU -->
+                                <div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">
+                                    <button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>
+                                    <ul class="dl-menu">
+                                        <li class="active">
+                                            <a href="index.html">home</a>
+                                        </li>
+                                        <li>
+                                            <a href="fergel.html">fergel</a>
+                                        </li>
+                                        <li>
+                                            <a href="produtos-categorias.html">produtos</a></li>
+                                        <li>
+                                            <a href="engenharia-sistemas.html">engenharia</a>
+                                        </li>
+                                        <li>
+                                            <a href="contatos.php">Contatos</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- // MOBILE MENU -->
+
                             </nav>
                             <!-- // SITE NAVIGATION MENU -->
                         </div>
@@ -277,14 +277,15 @@ include './conections/config.php';
                                                         ?>
 
                                                         <tr class="tabela">
-                                                            <td><a style="margin-right: 35px;" href="obra-cliente.php?cliente=<?php echo $idc; ?>&id=<?php echo $row['id_obra']; ?>"><?php echo $row['obra']; ?></a></td>
+                                                            <td><a style="margin-right: 35px;" href="obra-cliente.php?cliente=<?php echo $idc; ?>&id=<?php echo $_GET['idc']; ?>"><?php echo $row['obra']; ?></a></td>
+
                                                             <td><a href="edit-obra.php?cliente=<?php echo $_GET['id']; ?>&idc=<?php echo $_GET['idc']; ?>&id=<?php echo $row['id_obra'] ?>"><img width="20" height="20" src="img/ico-editar.png" title="Alterar"></a></td>
                                                             <td><a href="php/deletar_obra.php?id=<?php echo $row['id_obra']; ?>&idc=<?php echo $row['id_clientes']; ?>&idcliente=<?php echo $_GET['idc'] ?>"><img width="20" height="20" src="img/ico-delete.png" title="Excluir"></a></td>
 
                                                         </tr>
-    <?php
-}
-?>
+                                                        <?php
+                                                    }
+                                                    ?>
 
                                                 </table>
                                             </div>
