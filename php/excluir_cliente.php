@@ -11,7 +11,7 @@ $row_qtd = mysql_fetch_array($executa_sql_verifica_obra);
 if ($row_qtd['qtd'] >= 1) {
     ?>
     <script>
-        window.location.href = '../lista-clientes.php?qtd=erro'
+        window.location.href = '../lista-clientes.php?qtd=erro&id=<?php echo $_GET['idc'];?>'
     </script>
     <?php
 
