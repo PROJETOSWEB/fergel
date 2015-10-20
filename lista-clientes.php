@@ -2,6 +2,7 @@
 
 
 
+
 <!DOCTYPE html>
 <!--[if IE 7 ]><html class="ie ie7 lte9 lte8 lte7" lang="en-US"><![endif]-->
 <!--[if IE 8]><html class="ie ie8 lte9 lte8" lang="en-US">	<![endif]-->
@@ -255,6 +256,18 @@
                                     }
                                 }
                                 ?>
+
+
+                                <?php
+                                if (isset($_GET['resposta'])) {
+                                    if ($_GET['resposta'] == 'certo') {
+                                        ?>
+                                        <div class="success">CLIENTE CADASTRADO COM SUCESSO!</div>
+                                        </br>
+                                        <?php
+                                    }
+                                }
+                                ?>
                                 <div class="panel panel-default">
                                     <div class="panel-heading" style="height: 35px;">
                                         <h4 class="panel-title" style="float: left;">
@@ -310,7 +323,39 @@
 
 
             <!-- SITE FOOTER -->
-            <footer class="page-footer">                                                    <div class="footer-sub">                                <div class="container">                                    <div class="row">                                        <div class="col-xs-12 col-sm-6">                                            <div class="pull-left">                                                <div class="vmid">                                                    <a href="#"><img src="img/sac.png" alt="" /></a>                                                </div>                                            </div>                                        </div>                                                    <div class="space40 visible-xs"></div>                                                    <div class="col-xs-12 col-sm-6 center-xs">                                            <div class="pull-right">                                                <div class="vmid">                                                    <a href="#"><img src="img/cartoes.png" alt="" /></a>                                                </div>                                            </div>                                        </div>                                        <div class="space40 visible-xs"></div>                                                 </div>                                    <div class="copyright center-xs" style="background-color:#666;">                                        <p style="color:#FFF; text-align:center;">copyright &copy; 2015 &bull; www.fergel.com.br &bull; todos os direitos reservados.</p>                                    </div>                                </div>                            </div>                                    </footer>
+            <footer class="page-footer">
+
+
+                <div class="footer-sub">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="pull-left">
+                                    <div class="vmid">
+                                        <a href="#"><img src="img/sac.png" alt="" /></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="space40 visible-xs"></div>
+
+                            <div class="col-xs-12 col-sm-6 center-xs">
+                                <div class="pull-right">
+                                    <div class="vmid">
+                                        <a href="#"><img src="img/cartoes.png" alt="" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="space40 visible-xs"></div> 
+
+                        </div>
+                        <div class="copyright center-xs" style="background-color:#666;">
+                            <p style="color:#FFF; text-align:center;">copyright &copy; 2015 &bull; www.fergel.com.br &bull; todos os direitos reservados.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
             <!-- // SITE FOOTER -->		
 
 
