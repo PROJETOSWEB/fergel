@@ -369,6 +369,14 @@
                                                             </div>
                                                         </div>
                                                         <?php
+                                                        
+                                                        $id_cidade = $linha_edit_cliente['id_cidade'];
+                                                        $sql_cidadese = "SELECT * FROM cidade WHERE cid_id = $id_cidade";
+                                                        $sql_executa_cidadese = mysql_query($sql_cidadese)or die(mysql_error());
+                                                        $row_cidadee = mysql_fetch_array($sql_executa_cidadese);
+                                                        
+                                                        
+                                                        
                                                         $sql_cidade_c = "SELECT * FROM cidade";
                                                         $executa_sql_cidade_c = mysql_query($sql_cidade_c)or die(mysql_error());
                                                         ?>
@@ -377,7 +385,10 @@
                                                             <label for="inputState" class="col-sm-4 col-lg-4 control-label required">CIDADE</label>
                                                             <div class="col-sm-8 col-lg-8">
                                                                 <select name="cidades" class="form-control" required="cidades" id="inputCountry">
+                                                                    
+                                                                    <option value="<?php echo $row_cidadee['cid_id']; ?>"><?php echo $row_cidadee['cid_nome']; ?></option>
                                                                     <?php
+                                                                    
                                                                     while ($row_cidade = mysql_fetch_array($executa_sql_cidade_c)) {
                                                                         ?>
                                                                         <option value="<?php echo $row_cidade['cid_id']; ?>"><?php echo $row_cidade['cid_nome']; ?></option>
