@@ -262,7 +262,7 @@
                                 if (isset($_GET['resposta'])) {
                                     if ($_GET['resposta'] == 'certo') {
                                         ?>
-                                        <div class="success">CLIENTE CADASTRADO COM SUCESSO!</div>
+                                        <div class="successo">CLIENTE CADASTRADO COM SUCESSO!</div>
                                         </br>
                                         <?php
                                     }

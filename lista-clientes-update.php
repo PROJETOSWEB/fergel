@@ -414,11 +414,11 @@
                                                 if (isset($_GET['resposta'])) {
                                                     if ($_GET['resposta'] == 'certo') {
                                                         ?>
-                                                        <div>CLIENTE CADASTRADO COM SUCESSO!</div>
+                                                        <div class="sucesso">CLIENTE CADASTRADO COM SUCESSO!</div>
                                                         <?php
                                                     } else if ($_GET['resposta'] == 'erro') {
                                                         ?>
-                                                        <div>ERRO AO CADASTRAR CLIENTE</div>
+                                                        <div class="error">ERRO AO CADASTRAR CLIENTE</div>
                                                         <?php
                                                     }
                                                 }
