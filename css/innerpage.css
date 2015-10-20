@@ -578,3 +578,4 @@
 .store-list > li:hover {
 	background: #d1d1d1;
 }
+.error {         color: #fff;        background-color: #BE1E2D;        height: 35px;        width: auto;        border-radius: 4px;        line-height: 34px;        text-align: center;          }

@@ -1,17 +1,6 @@
 <?php include './conections/config.php'; ?>
 
-<style>
-    .error {
-         color: #D8000C;
-    background-color: #FFBABA;
-        height: 35px;
-        width: 300px;
-        border-radius: 4px;
-        line-height: 34px;
-        text-align: center;
-      
-    }
-</style>
+
 
 <!DOCTYPE html>
 <!--[if IE 7 ]><html class="ie ie7 lte9 lte8 lte7" lang="en-US"><![endif]-->
@@ -260,7 +249,7 @@
                                 if (isset($_GET['qtd'])) {
                                     if ($_GET['qtd'] == 'erro') {
                                         ?>
-                                        <div class="error">ESTE CLIENTE NAO PODE SER EXCLUIDO!</div>
+                                        <div class="error">EXCLUSÃO NÃO PERMITIDA! PRIMEIRO EXCLUA AS OBRAS DESTE CLIENTE.</div>
                                         </br>
                                         <?php
                                     }
@@ -306,30 +295,6 @@
 
                                                     <?php } ?>
 
-<!--                                                    <tr class="tabela">
-                                                        <td><a href="#">Fergel Indï¿½stria e Comï¿½rcio de Ferro LTDA</a></td>
-                                                    </tr>
-                                                    <tr class="tabela">
-                                                        <td><a href="#">Fergel Indï¿½stria e Comï¿½rcio de Ferro LTDA</a></td>
-                                                    </tr>
-                                                    <tr class="tabela">
-                                                        <td><a href="#">Fergel Indï¿½stria e Comï¿½rcio de Ferro LTDA</a></td>
-                                                    </tr>
-                                                    <tr class="tabela">
-                                                        <td><a href="#">Fergel Indï¿½stria e Comï¿½rcio de Ferro LTDA</a></td>
-                                                    </tr>
-                                                    <tr class="tabela">
-                                                        <td><a href="#">Fergel Indï¿½stria e Comï¿½rcio de Ferro LTDA</a></td>
-                                                    </tr>
-                                                    <tr class="tabela">
-                                                        <td><a href="#">Fergel Indï¿½stria e Comï¿½rcio de Ferro LTDA</a></td>
-                                                    </tr>
-                                                    <tr class="tabela">
-                                                        <td><a href="#">Fergel Indï¿½stria e Comï¿½rcio de Ferro LTDA</a></td>
-                                                    </tr>
-                                                    <tr class="tabela">
-                                                        <td><a href="#">Fergel Indï¿½stria e Comï¿½rcio de Ferro LTDA</a></td>
-                                                    </tr>-->
                                                 </table>
                                             </div>
                                         </div>
@@ -345,39 +310,7 @@
 
 
             <!-- SITE FOOTER -->
-            <footer class="page-footer" style=" position:fixed button;">
-
-
-                <div class="footer-sub">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-6">
-                                <div class="pull-left">
-                                    <div class="vmid">
-                                        <a href="#"><img src="img/sac.png" alt="" /></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="space40 visible-xs"></div>
-
-                            <div class="col-xs-12 col-sm-6 center-xs">
-                                <div class="pull-right">
-                                    <div class="vmid">
-                                        <a href="#"><img src="img/cartoes.png" alt="" /></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="space40 visible-xs"></div> 
-
-                        </div>
-                        <div class="copyright center-xs" style="background-color:#666;">
-                            <p style="color:#FFF; text-align:center;">copyright &copy; 2015 &bull; www.fergel.com.br &bull; todos os direitos reservados.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </footer>
+            <footer class="page-footer">                                                    <div class="footer-sub">                                <div class="container">                                    <div class="row">                                        <div class="col-xs-12 col-sm-6">                                            <div class="pull-left">                                                <div class="vmid">                                                    <a href="#"><img src="img/sac.png" alt="" /></a>                                                </div>                                            </div>                                        </div>                                                    <div class="space40 visible-xs"></div>                                                    <div class="col-xs-12 col-sm-6 center-xs">                                            <div class="pull-right">                                                <div class="vmid">                                                    <a href="#"><img src="img/cartoes.png" alt="" /></a>                                                </div>                                            </div>                                        </div>                                        <div class="space40 visible-xs"></div>                                                 </div>                                    <div class="copyright center-xs" style="background-color:#666;">                                        <p style="color:#FFF; text-align:center;">copyright &copy; 2015 &bull; www.fergel.com.br &bull; todos os direitos reservados.</p>                                    </div>                                </div>                            </div>                                    </footer>
             <!-- // SITE FOOTER -->		
 
 
