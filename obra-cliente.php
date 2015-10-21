@@ -227,7 +227,7 @@ include './conections/config.php';
                 <div class="container">
                     <div class="row">
                         <?php
-                        $idc = $_GET['id'];
+                        $idc = $_GET['cliente'];
                         $sql_cliente = "SELECT * FROM clientes WHERE id_clientes =$idc";
                         $executa_sql_cliente = mysql_query($sql_cliente)or die(mysql_error());
                         $linha_co = mysql_fetch_array($executa_sql_cliente);
